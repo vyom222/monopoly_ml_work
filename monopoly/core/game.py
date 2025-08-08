@@ -13,9 +13,9 @@ from monopoly.core.player import Player
 from monopoly.log import Log
 from monopoly.log_settings import LogSettings
 from settings import SimulationSettings, GameSettings, GameMechanics
+from typing import Dict, Any
 
-
-def monopoly_game(game_number_and_seeds: Tuple[int,int]) -> None:
+def monopoly_game(game_number_and_seeds: Tuple[int,int]) -> Dict[str, Any]:
     """ Simulation of one game.
     For convenience to set up a multi-thread,
     parameters are packed into a tuple: (game_number, game_seed):
@@ -50,10 +50,45 @@ def monopoly_game(game_number_and_seeds: Tuple[int,int]) -> None:
                 bankruptcies_log.add(f"{game_number}\t{player}\t{turn_n}")
 
     # log the final game state
-    board.log_current_map(events_log)
+        board.log_current_map(events_log)
     events_log.save()
     if bankruptcies_log.content:
         bankruptcies_log.save()
+
+    # —— Build and return a summary dict —— 
+
+    survivors = [p for p in players if not p.is_bankrupt]
+    if len(survivors) == 1:
+        winner = survivors[0].name
+    else:
+        winner = max(survivors, key=lambda p: p.money).name
+
+    summary_players = {}
+    for p in players:
+        # Determine initial cash
+        start_money = GameSettings.starting_money
+        if isinstance(start_money, dict):
+            initial_cash = start_money.get(p.name, 0)
+        else:
+            initial_cash = start_money
+
+        # Compute ROI
+        final_net = p.net_worth()
+        roi = final_net / initial_cash if initial_cash > 0 else None
+
+        summary_players[p.name] = {
+            "roi": roi,
+            "win": winner==p.name,
+            "props": len(p.owned),
+            "houses": sum(c.has_houses for c in p.owned),
+            "hotels": sum(c.has_hotel for c in p.owned),
+            "turns": turn_n
+        }
+
+    return {
+        "winner": winner,
+        "players": summary_players
+    }
 
 
 def setup_players(board, dice):

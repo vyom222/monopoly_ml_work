@@ -575,6 +575,11 @@ class Player:
             if cell_to_improve is None:
                 break
 
+            # Respect the Hero’s max_development_level: 
+            # if the group already has that many houses (or a hotel when level=5), stop improving this cell.
+            # if cell_to_improve.has_houses >= self.settings.max_development_level:
+            #     break
+            log.add(f"Trying to build: {cell_to_improve}, houses={cell_to_improve.has_houses}, hotel={cell_to_improve.has_hotel}, max_dev={self.settings.max_development_level}")
             improvement_cost = cell_to_improve.cost_house
 
             # Don't do it if you don't have money to spend
@@ -584,16 +589,17 @@ class Player:
             # Building a house
             ordinal = {1: "1st", 2: "2nd", 3: "3rd", 4: "4th"}
 
-            if cell_to_improve.has_houses != 4:
+            if cell_to_improve.has_houses != 4 and cell_to_improve.has_houses < self.settings.max_development_level:
                 cell_to_improve.has_houses += 1
                 board.available_houses -= 1
                 # Paying for the improvement
                 self.money -= cell_to_improve.cost_house
                 log.add(f"{self} built {ordinal[cell_to_improve.has_houses]} " +
                         f"house on {cell_to_improve} for ${cell_to_improve.cost_house}")
+                log.add(f"After build: {cell_to_improve} now has {cell_to_improve.has_houses} houses")
 
             # Building a hotel
-            elif cell_to_improve.has_houses == 4:
+            elif cell_to_improve.has_houses == 4 and self.settings.max_development_level == 5:
                 cell_to_improve.has_houses = 0
                 cell_to_improve.has_hotel = 1
                 board.available_houses += 4
@@ -601,6 +607,11 @@ class Player:
                 # Paying for the improvement
                 self.money -= cell_to_improve.cost_house
                 log.add(f"{self} built a hotel on {cell_to_improve}")
+            else:
+                break
+
+
+
 
     def unmortgage_a_property(self, board, log):
         """ Go through the list of properties and unmortgage one,

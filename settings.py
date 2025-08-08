@@ -49,11 +49,31 @@ class StandardPlayerSettings:
     # agree to trades if the value difference is within these limits:
     trade_max_diff_absolute: int = 200  # More expensive - less expensive
     trade_max_diff_relative: float = 2.0  # More expensive / less expensive
+    max_development_level: int = 5
 
 
 @dataclass(frozen=True)
 class HeroPlayerSettings(StandardPlayerSettings):
-    """ here you can change the settings of the hero (the Experimental Player) """
+    # New strategy parameters
+    buy_orange: bool = True
+    buy_light_blue: bool = True
+    buy_stations: bool = True
+    buy_utilities: bool = True
+    max_development_level: int = 3  # max houses per property, 5 = hotel
+
+    def __post_init__(self):
+        # Automatically set ignored property groups based on strategy
+        ignore = set()
+        if not self.buy_orange:
+            ignore.add("ORANGE")
+        if not self.buy_light_blue:
+            ignore.add("LIGHT_BLUE")
+        if not self.buy_stations:
+            ignore.add("STATION")
+        if not self.buy_utilities:
+            ignore.add("UTILITY")
+        object.__setattr__(self, 'ignore_property_groups', frozenset(ignore))
+
     # ignore_property_groups: FrozenSet[str] = frozenset({"GREEN"})
 
 
