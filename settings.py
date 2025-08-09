@@ -50,16 +50,29 @@ class StandardPlayerSettings:
     trade_max_diff_absolute: int = 200  # More expensive - less expensive
     trade_max_diff_relative: float = 2.0  # More expensive / less expensive
     max_development_level: int = 5
+    set_completion_trade_bonus = 200 
 
 
 @dataclass(frozen=True)
 class HeroPlayerSettings(StandardPlayerSettings):
     # New strategy parameters
-    buy_orange: bool = True
+    # buying flags
+    buy_brown: bool = True
     buy_light_blue: bool = True
+    buy_pink: bool = True
+    buy_orange: bool = True
+    buy_red: bool = True
+    buy_yellow: bool = True
+    buy_green: bool = True
+    buy_indigo: bool = True
     buy_stations: bool = True
     buy_utilities: bool = True
-    max_development_level: int = 3  # max houses per property, 5 = hotel
+
+    # development and trading params
+    max_development_level: int = 5
+    unspendable_cash: int = 200
+    trade_max_diff_absolute: int = 200
+    set_completion_trade_bonus: int = 0
 
     def __post_init__(self):
         # Automatically set ignored property groups based on strategy

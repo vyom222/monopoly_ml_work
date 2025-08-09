@@ -576,9 +576,6 @@ class Player:
                 break
 
             # Respect the Hero’s max_development_level: 
-            # if the group already has that many houses (or a hotel when level=5), stop improving this cell.
-            # if cell_to_improve.has_houses >= self.settings.max_development_level:
-            #     break
             log.add(f"Trying to build: {cell_to_improve}, houses={cell_to_improve.has_houses}, hotel={cell_to_improve.has_hotel}, max_dev={self.settings.max_development_level}")
             improvement_cost = cell_to_improve.cost_house
 
@@ -609,9 +606,6 @@ class Player:
                 log.add(f"{self} built a hotel on {cell_to_improve}")
             else:
                 break
-
-
-
 
     def unmortgage_a_property(self, board, log):
         """ Go through the list of properties and unmortgage one,
@@ -651,9 +645,7 @@ class Player:
             can_be_downgrade_has_houses = False
             for cell in self.owned:
                 if cell.has_houses > 0 or cell.has_hotel > 0:
-                    # Look at other cells in this group
-                    # Do they have more houses or hotels?
-                    # If so, this property cannot be de-improved
+                    # Look at other properties in this group
                     for other_cell in board.groups[cell.group]:
                         if cell.has_hotel == 0 and (
                                 other_cell.has_houses > cell.has_houses or other_cell.has_hotel > 0):
@@ -720,7 +712,6 @@ class Player:
                     log.add(f"{self} sells a hotel on {cell_to_deimprove}, raising ${sell_price}")
                     self.money += sell_price
                 # Selling hotel, must tear down all 5 houses from one plot
-                # TODO: I think we need to tear down all 3 hotels in this situation?
                 else:
                     cell_to_deimprove.has_hotel = 0
                     cell_to_deimprove.has_houses = 0
@@ -885,16 +876,15 @@ class Player:
             >0 means a player gives away more
             Return both absolute (in $), relative for a giver, relative for a receiver
             """
-
-            cost_gives = sum(cell.cost_base for cell in gives)
-            cost_receives = sum(cell.cost_base for cell in receives)
+            cost_gives = sum(cell.cost_base for cell in gives) if gives else 0
+            cost_receives = sum(cell.cost_base for cell in receives) if receives else 0
 
             diff_abs = cost_gives - cost_receives
 
             diff_giver, diff_receiver = float("inf"), float("inf")
-            if receives:
+            if receives and cost_receives > 0:
                 diff_giver = cost_gives / cost_receives
-            if gives:
+            if gives and cost_gives > 0:
                 diff_receiver = cost_receives / cost_gives
 
             return diff_abs, diff_giver, diff_receiver
@@ -903,8 +893,16 @@ class Player:
             new_cells = [cell for cell in cells if cell.group != color]
             return new_cells
 
+        def would_complete_set(player, property_cell):
+            """ Return True if giving this property_cell to `player` would complete the group's monopoly """
+            color_group = property_cell.group
+            owned_in_group = [p for p in player.owned if p.group == color_group]
+            total_in_group = len(board.groups[color_group])
+            return (len(owned_in_group) + 1) == total_in_group
+
         def fair_deal(player_gives, player_receives, other_player):
             """ Remove properties from to_sell and to_buy to make it as fair as possible
+            and include a bias that allows paying a premium if the receiver completes a set.
             """
 
             # First, get all colors in both sides of the deal
@@ -920,7 +918,6 @@ class Player:
             # so both players would want to receive them
             # If they are present, remove it from the guy who has the longer list
             # If a list has the same length, remove both questionable items
-
             for questionable_color in [UTILITIES, INDIGO, BROWN]:
                 if questionable_color in color_receives and questionable_color in color_gives:
                     if len(player_receives) > len(player_gives):
@@ -935,27 +932,47 @@ class Player:
             player_receives.sort(key=lambda x: -x.cost_base)
             player_gives.sort(key=lambda x: -x.cost_base)
 
-            # Check the difference in value and make sure it is not larger that player's preference
+            # Check the difference in value and make sure it is not larger than player's preference
             while player_gives and player_receives:
+                diff_abs, diff_giver, diff_receiver = get_price_difference(player_gives, player_receives)
 
-                diff_abs, diff_giver, diff_receiver = \
-                    get_price_difference(player_gives, player_receives)
+                # Apply set-completion bonuses from settings (default 0 if not present)
+                completion_bonus_self = getattr(self.settings, "set_completion_trade_bonus", 0)
+                completion_bonus_other = getattr(other_player.settings, "set_completion_trade_bonus", 0)
 
-                # This player gives too much
-                if diff_abs > self.settings.trade_max_diff_absolute or \
-                        diff_giver > self.settings.trade_max_diff_relative:
+                # If any of the properties the current player will receive complete a set for them,
+                # they are willing to effectively 'pay' completion_bonus_self more.
+                if any(would_complete_set(self, prop) for prop in player_receives):
+                    adjusted_diff_abs = diff_abs - completion_bonus_self
+                else:
+                    adjusted_diff_abs = diff_abs
+
+                # If any of the properties the other player will receive complete a set for them,
+                # they would expect extra compensation — make the deal 'worse' from our player's perspective.
+                if any(would_complete_set(other_player, prop) for prop in player_gives):
+                    adjusted_diff_abs = adjusted_diff_abs + completion_bonus_other
+
+                # Compare adjusted difference to both players' thresholds
+                if adjusted_diff_abs > self.settings.trade_max_diff_absolute or (diff_giver != float("inf") and diff_giver > self.settings.trade_max_diff_relative):
+                    # This player gives too much (even after bonuses), remove one give candidate
                     player_gives.pop()
                     continue
-                # The Other player gives too much
-                if -diff_abs > other_player.settings.trade_max_diff_absolute or \
-                        diff_receiver > other_player.settings.trade_max_diff_relative:
+
+                if -adjusted_diff_abs > other_player.settings.trade_max_diff_absolute or (diff_receiver != float("inf") and diff_receiver > other_player.settings.trade_max_diff_relative):
+                    # Other player gives too much; remove one receive candidate
                     player_receives.pop()
                     continue
+
+                # If acceptable for both sides
                 break
 
             return player_gives, player_receives
 
         for other_player in players:
+            # skip self
+            if other_player is self:
+                continue
+
             # Selling/buying thing matches
             if self.wants_to_buy.intersection(other_player.wants_to_sell) and \
                     self.wants_to_sell.intersection(other_player.wants_to_buy):
@@ -963,34 +980,37 @@ class Player:
                 player_gives = list(self.wants_to_sell.intersection(other_player.wants_to_buy))
 
                 # Work out a fair deal (don't trade the same color,
-                # get value difference within the limit)
-                player_gives, player_receives = \
-                    fair_deal(player_gives, player_receives, other_player)
+                # get value difference within the limit), with completion bias
+                player_gives, player_receives = fair_deal(player_gives, player_receives, other_player)
 
                 # If their deal is not empty, go on
                 if player_receives and player_gives:
 
                     # Price difference in traded properties
-                    price_difference, _, _ = \
-                        get_price_difference(player_gives, player_receives)
+                    price_difference, _, _ = get_price_difference(player_gives, player_receives)
 
-                    # Player gives await more expensive item, other play has to pay
-                    if price_difference > 0:
-                        # Other guy can't pay
-                        if other_player.money - price_difference < \
-                                other_player.settings.unspendable_cash:
-                            return False
-                        other_player.money -= price_difference
-                        self.money += price_difference
+                    # Apply completion premiums to the money transfer:
+                    # If self (the player) is receiving properties that complete a set, they will pay extra (more negative transfer).
+                    completion_bonus_self = getattr(self.settings, "set_completion_trade_bonus", 0)
+                    completion_bonus_other = getattr(other_player.settings, "set_completion_trade_bonus", 0)
 
-                    # Player gives cheaper stuff, has to pay
-                    if price_difference < 0:
-                        # This player can't pay
-                        if self.money - abs(price_difference) < \
-                                self.settings.unspendable_cash:
-                            return False
-                        other_player.money += abs(price_difference)
-                        self.money -= abs(price_difference)
+                    # money_transfer is what other_player pays to self if positive, or self pays to other_player if negative
+                    money_transfer = price_difference - completion_bonus_self + completion_bonus_other
+
+                    # Check that the payer can pay while keeping unspendable cash
+                    if money_transfer > 0:
+                        # other_player must pay money_transfer to self
+                        if other_player.money - money_transfer < other_player.settings.unspendable_cash:
+                            continue
+                        other_player.money -= money_transfer
+                        self.money += money_transfer
+                    elif money_transfer < 0:
+                        # self must pay abs(money_transfer) to other_player
+                        if self.money - abs(money_transfer) < self.settings.unspendable_cash:
+                            continue
+                        other_player.money += abs(money_transfer)
+                        self.money -= abs(money_transfer)
+                    # if money_transfer == 0: no money exchanged
 
                     # Property changes hands
                     for cell_to_receive in player_receives:
@@ -1007,18 +1027,16 @@ class Player:
                             f"receives {[str(cell) for cell in player_receives]} " +
                             f"from {other_player}")
 
-                    if price_difference > 0:
-                        log.add(f"{self} received " +
-                                f"price difference compensation ${abs(price_difference)} " +
-                                f"from {other_player}")
-                    if price_difference < 0:
-                        log.add(f"{other_player} received " +
-                                f"price difference compensation ${abs(price_difference)} " +
-                                f"from {self}")
+                    if money_transfer > 0:
+                        log.add(f"{self} received price difference compensation ${abs(money_transfer)} from {other_player}")
+                    if money_transfer < 0:
+                        log.add(f"{other_player} received price difference compensation ${abs(money_transfer)} from {self}")
 
-                    # Recalculate monopoly and improvement status
-                    board.recalculate_monopoly_multipliers(player_gives[0])
-                    board.recalculate_monopoly_multipliers(player_receives[0])
+                    # Recalculate monopoly and improvement status (pass a changed cell from each side to update groups)
+                    if player_gives:
+                        board.recalculate_monopoly_multipliers(player_gives[0])
+                    if player_receives:
+                        board.recalculate_monopoly_multipliers(player_receives[0])
 
                     # Recalculate who wants to buy what
                     # (for all players, it may affect their decisions too)
