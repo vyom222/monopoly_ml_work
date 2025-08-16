@@ -1,0 +1,11 @@
+strategy_id,games_played,wins,win_rate,lower_bound
+"(True, False, False, False, False, True, True, True, True, True, 5, 100)",100,41,0.41,0.33294718717207816
+"(True, False, False, True, True, False, False, False, True, True, 5, 50)",100,40,0.4,0.3235574325646974
+"(True, False, True, True, False, True, True, False, True, True, 5, 100)",100,39,0.39,0.31420106741886455
+"(True, False, False, True, True, False, False, True, False, True, 5, 0)",100,39,0.39,0.31420106741886455
+"(False, True, True, True, False, True, True, True, False, True, 3, 100)",100,38,0.38,0.3048785202306295
+"(False, True, True, True, True, True, False, False, True, True, 3, 50)",100,38,0.38,0.3048785202306295
+"(False, True, True, True, False, False, False, False, False, False, 5, 100)",100,38,0.38,0.3048785202306295
+"(True, True, True, False, False, True, False, False, False, False, 3, 0)",100,37,0.37,0.2955902709753222
+"(True, True, False, True, False, True, False, True, False, False, 3, 0)",100,37,0.37,0.2955902709753222
+"(True, False, True, True, True, False, False, False, True, True, 5, 0)",100,37,0.37,0.2955902709753222

@@ -50,6 +50,33 @@ FEATURES = BUY_FLAGS + OTHER_FEATURES
 OUT_DIR = "analysis_output"
 os.makedirs(OUT_DIR, exist_ok=True)
 
+import numpy as np
+
+print("Loading:", "strategy_results.csv")
+df = pd.read_csv("strategy_results.csv")
+print("Raw rows:", len(df))
+
+# === Diagnostics ===
+
+# (a) Class distribution
+print("\n== Class distribution (win variable) ==")
+print(df['win'].value_counts(normalize=True))
+
+# (b) Per-strategy n_games histogram
+print("\n== Per-strategy game count distribution ==")
+print(df.groupby(FEATURES).size().describe())
+
+# (c) Baseline RMSE for regressor
+df_agg = df.groupby(FEATURES).agg(avg_win=('win', 'mean')).reset_index()
+mean_avg_win = df_agg['avg_win'].mean()
+baseline_rmse = np.sqrt(((df_agg['avg_win'] - mean_avg_win) ** 2).mean())
+print("\n== Baseline RMSE for constant predictor ==")
+print("Mean avg_win:", mean_avg_win)
+print("Baseline RMSE:", baseline_rmse)
+
+# === Continue with original aggregation and regressor training ===
+
+
 
 def prepare_df(path=DATA_FILE):
     print("Loading:", path)
@@ -195,6 +222,13 @@ def train_classifier_on_per_game(df):
 
     # Save calibrated classifier
     joblib.dump(calib, os.path.join(OUT_DIR, "classifier_calibrated.joblib"))
+    # After clf_calibrated is trained and X_test is defined:
+    probs = calib.predict_proba(X_test)[:, 1]
+    print("\n== Classifier predicted probabilities on test data ==")
+    print("Mean:", probs.mean())
+    print("Min :", probs.min())
+    print("Max :", probs.max())
+
 
     return calib
 
@@ -256,3 +290,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
