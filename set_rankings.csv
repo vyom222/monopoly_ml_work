@@ -1,0 +1,11 @@
+set,mean_abs_shap,rank
+p_max_owned_indigo_complete,0.3766005061049693,1
+p_max_owned_railroads_complete,0.14148682080385755,2
+p_max_owned_red_complete,0.06725505267945643,3
+p_max_owned_utilities_complete,0.05547458414152195,4
+p_max_owned_orange_complete,0.042711973006933614,5
+p_max_owned_yellow_complete,0.039753738969441246,6
+p_max_owned_brown_complete,0.03675714529943003,7
+p_max_owned_green_complete,0.031414339746865916,8
+p_max_owned_pink_complete,0.02709124581723783,9
+p_max_owned_lightblue_complete,0.02277046920585216,10

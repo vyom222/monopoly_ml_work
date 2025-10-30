@@ -1,0 +1,14 @@
+{
+  "targets": [
+    "max_owned_brown_complete",
+    "max_owned_lightblue_complete",
+    "max_owned_pink_complete",
+    "max_owned_orange_complete",
+    "max_owned_red_complete",
+    "max_owned_yellow_complete",
+    "max_owned_green_complete",
+    "max_owned_indigo_complete",
+    "max_owned_railroads_complete",
+    "max_owned_utilities_complete"
+  ]
+}

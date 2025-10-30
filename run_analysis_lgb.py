@@ -20,20 +20,14 @@ import joblib
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
+import lightgbm as lgb
 from sklearn.metrics import (
     mean_squared_error, r2_score,
     accuracy_score, roc_auc_score, classification_report, brier_score_loss
 )
 from sklearn.calibration import CalibratedClassifierCV
-from sklearn.ensemble import HistGradientBoostingClassifier
 import matplotlib.pyplot as plt
 
-# Try to use LightGBM if available
-try:
-    import lightgbm as lgb
-    LGB_AVAILABLE = True
-except Exception:
-    LGB_AVAILABLE = False
 
 RANDOM_STATE = 42
 DATA_FILE = "strategy_results.csv"
@@ -124,17 +118,12 @@ def train_regressor_on_aggregated(df):
         X, y, test_size=0.2, random_state=RANDOM_STATE
     )
 
-    # Model: LightGBM regressor if available, else use sklearn HistGradientBoostingRegressor
-    if LGB_AVAILABLE:
-        model = lgb.LGBMRegressor(n_estimators=1000, learning_rate=0.05,
-                                  random_state=RANDOM_STATE, n_jobs=-1)
-        model.fit(X_train, y_train,
-                  eval_set=[(X_test, y_test)],
-                  early_stopping_rounds=50, verbose=False)
-    else:
-        from sklearn.ensemble import HistGradientBoostingRegressor
-        model = HistGradientBoostingRegressor(random_state=RANDOM_STATE)
-        model.fit(X_train, y_train)
+
+    model = lgb.LGBMRegressor(n_estimators=1000, learning_rate=0.05,
+                                random_state=RANDOM_STATE, n_jobs=-1)
+    model.fit(X_train, y_train,
+                eval_set=[(X_test, y_test)],
+                early_stopping_rounds=50, verbose=False)
 
     # Evaluate
     y_pred = model.predict(X_test)
@@ -175,18 +164,14 @@ def train_classifier_on_per_game(df):
         X, y, test_size=0.2, random_state=RANDOM_STATE, stratify=y
     )
 
-    if LGB_AVAILABLE:
-        # Use scale_pos_weight to account for class imbalance
-        scale_pos_weight = max(1.0, (len(y_train) - y_train.sum()) / max(1.0, y_train.sum()))
-        clf = lgb.LGBMClassifier(n_estimators=1000, learning_rate=0.05,
-                                 random_state=RANDOM_STATE, n_jobs=-1,
-                                 class_weight="balanced")
-        # Fit with early stopping
-        clf.fit(X_train, y_train, eval_set=[(X_test, y_test)],
-                early_stopping_rounds=50, verbose=False)
-    else:
-        clf = HistGradientBoostingClassifier(random_state=RANDOM_STATE)
-        clf.fit(X_train, y_train)
+    # Use scale_pos_weight to account for class imbalance
+    scale_pos_weight = max(1.0, (len(y_train) - y_train.sum()) / max(1.0, y_train.sum()))
+    clf = lgb.LGBMClassifier(n_estimators=1000, learning_rate=0.05,
+                                random_state=RANDOM_STATE, n_jobs=-1,
+                                class_weight="balanced")
+    # Fit with early stopping
+    clf.fit(X_train, y_train, eval_set=[(X_test, y_test)],
+            early_stopping_rounds=50, verbose=False)
 
     # Calibrate probabilities (sigmoid is a good default)
     calib = CalibratedClassifierCV(clf, method="sigmoid", cv=5)

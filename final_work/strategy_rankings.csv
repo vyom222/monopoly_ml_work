@@ -1,0 +1,1025 @@
+buy_brown,buy_light_blue,buy_pink,buy_orange,buy_red,buy_yellow,buy_green,buy_indigo,buy_stations,buy_utilities,max_development_level,unspendable_cash,predicted_win_prob,owned_sets,rank,points
+1,1,0,0,1,0,1,1,1,1,4,50.0,0.11791111461189097,"brown, light_blue, red, green, indigo, stations, utilities",1,1
+1,1,1,1,1,0,0,1,0,1,4,50.0,0.11707404085825565,"brown, light_blue, pink, orange, red, indigo, utilities",2,2
+1,1,0,1,1,1,1,1,1,1,4,50.0,0.11567401532631202,"brown, light_blue, orange, red, yellow, green, indigo, stations, utilities",3,3
+1,1,0,0,1,1,1,1,0,1,4,50.0,0.11465322201555876,"brown, light_blue, red, yellow, green, indigo, utilities",4,4
+1,1,0,1,0,0,0,1,0,0,4,50.0,0.11331213454529913,"brown, light_blue, orange, indigo",5,5
+1,1,0,1,1,1,0,0,1,1,4,50.0,0.11319555116689126,"brown, light_blue, orange, red, yellow, stations, utilities",6,6
+1,1,0,1,0,0,1,0,1,1,4,50.0,0.11277013104643134,"brown, light_blue, orange, green, stations, utilities",7,7
+1,1,1,1,1,1,1,1,1,1,4,50.0,0.11260863806460455,"brown, light_blue, pink, orange, red, yellow, green, indigo, stations, utilities",8,8
+1,1,0,1,0,0,1,1,1,1,4,50.0,0.11247874707451369,"brown, light_blue, orange, green, indigo, stations, utilities",9,9
+1,0,0,1,0,1,1,1,1,1,4,50.0,0.11226706130282975,"brown, orange, yellow, green, indigo, stations, utilities",10,10
+1,1,1,1,1,0,1,1,0,1,4,50.0,0.11205288924429195,"brown, light_blue, pink, orange, red, green, indigo, utilities",11,11
+1,1,0,1,0,0,1,1,0,1,4,50.0,0.11192061900107786,"brown, light_blue, orange, green, indigo, utilities",12,12
+1,1,0,0,1,1,0,1,1,1,4,50.0,0.11185663983787023,"brown, light_blue, red, yellow, indigo, stations, utilities",13,13
+1,1,0,1,0,1,0,1,1,1,4,50.0,0.11180397168338962,"brown, light_blue, orange, yellow, indigo, stations, utilities",14,14
+1,1,0,1,0,1,1,1,0,1,4,50.0,0.11166215847345418,"brown, light_blue, orange, yellow, green, indigo, utilities",15,15
+1,1,1,0,1,1,0,1,1,1,4,50.0,0.11147070282910494,"brown, light_blue, pink, red, yellow, indigo, stations, utilities",16,16
+1,1,0,1,0,0,0,1,1,1,4,50.0,0.11145826374687465,"brown, light_blue, orange, indigo, stations, utilities",17,17
+1,1,0,1,0,0,1,1,1,0,4,50.0,0.11144972388274765,"brown, light_blue, orange, green, indigo, stations",18,18
+1,1,0,1,1,1,0,1,1,1,4,50.0,0.11107546147249545,"brown, light_blue, orange, red, yellow, indigo, stations, utilities",19,19
+1,1,1,1,1,1,0,1,1,1,4,50.0,0.11103133121764668,"brown, light_blue, pink, orange, red, yellow, indigo, stations, utilities",20,20
+1,1,1,1,0,0,1,1,0,0,4,50.0,0.1108846774766842,"brown, light_blue, pink, orange, green, indigo",21,21
+1,1,0,0,1,1,1,1,1,0,4,50.0,0.1108656129184528,"brown, light_blue, red, yellow, green, indigo, stations",22,22
+1,1,0,1,0,1,0,1,0,0,4,50.0,0.11077754780987728,"brown, light_blue, orange, yellow, indigo",23,23
+1,1,0,1,0,1,0,1,0,1,4,50.0,0.11070973516852611,"brown, light_blue, orange, yellow, indigo, utilities",24,24
+1,1,0,0,1,1,0,1,0,1,4,50.0,0.11061321397423804,"brown, light_blue, red, yellow, indigo, utilities",25,25
+1,1,0,1,0,0,1,1,0,0,4,50.0,0.11055286982265625,"brown, light_blue, orange, green, indigo",26,26
+0,1,0,1,1,1,1,1,0,1,4,50.0,0.11049930618385943,"light_blue, orange, red, yellow, green, indigo, utilities",27,27
+1,1,0,1,0,0,0,1,1,0,4,50.0,0.1103983057320181,"brown, light_blue, orange, indigo, stations",28,28
+1,1,0,1,0,0,1,0,1,0,4,50.0,0.1103971085409016,"brown, light_blue, orange, green, stations",29,29
+1,1,0,1,1,0,1,1,1,1,4,50.0,0.11036423738603067,"brown, light_blue, orange, red, green, indigo, stations, utilities",30,30
+1,1,0,1,0,1,1,1,0,0,4,50.0,0.11035401879442738,"brown, light_blue, orange, yellow, green, indigo",31,31
+1,1,0,1,0,1,1,0,1,1,4,50.0,0.11030412508404633,"brown, light_blue, orange, yellow, green, stations, utilities",32,32
+1,1,0,1,1,1,1,1,1,0,4,50.0,0.11026990620077945,"brown, light_blue, orange, red, yellow, green, indigo, stations",33,33
+1,1,0,1,0,0,0,1,0,1,4,50.0,0.11025608666172644,"brown, light_blue, orange, indigo, utilities",34,34
+1,1,0,1,0,1,0,1,1,0,4,50.0,0.11018009141213318,"brown, light_blue, orange, yellow, indigo, stations",35,35
+1,1,0,1,0,1,0,0,1,1,4,50.0,0.11014898285942454,"brown, light_blue, orange, yellow, stations, utilities",36,36
+1,1,0,1,0,1,0,0,0,0,4,50.0,0.11012188793946676,"brown, light_blue, orange, yellow",37,37
+1,1,0,0,1,1,1,1,0,0,4,50.0,0.11005690662916856,"brown, light_blue, red, yellow, green, indigo",38,38
+0,1,0,0,1,1,0,1,0,1,4,50.0,0.10995384536963675,"light_blue, red, yellow, indigo, utilities",39,39
+1,1,1,1,1,1,1,0,1,1,4,50.0,0.10983424738481533,"brown, light_blue, pink, orange, red, yellow, green, stations, utilities",40,40
+1,1,0,0,1,1,1,1,1,1,4,50.0,0.10983157936017536,"brown, light_blue, red, yellow, green, indigo, stations, utilities",41,41
+0,1,0,0,1,1,1,1,1,1,4,50.0,0.1097810516721224,"light_blue, red, yellow, green, indigo, stations, utilities",42,42
+1,1,0,1,1,0,1,1,1,0,4,50.0,0.10975288811080175,"brown, light_blue, orange, red, green, indigo, stations",43,43
+1,1,0,0,1,1,1,0,0,1,4,50.0,0.10969107191460799,"brown, light_blue, red, yellow, green, utilities",44,44
+1,1,1,1,0,1,0,0,1,0,4,50.0,0.10967481466003855,"brown, light_blue, pink, orange, yellow, stations",45,45
+1,1,0,1,1,1,0,0,1,0,4,50.0,0.10967023430618843,"brown, light_blue, orange, red, yellow, stations",46,46
+1,1,0,0,1,1,1,0,1,1,4,50.0,0.10962214914085806,"brown, light_blue, red, yellow, green, stations, utilities",47,47
+1,1,0,0,1,1,0,0,1,1,4,50.0,0.10955979449662126,"brown, light_blue, red, yellow, stations, utilities",48,48
+1,1,0,0,1,1,0,0,1,0,4,50.0,0.1095342865235519,"brown, light_blue, red, yellow, stations",49,49
+1,1,1,0,1,1,1,1,1,0,4,50.0,0.10952286529903299,"brown, light_blue, pink, red, yellow, green, indigo, stations",50,50
+1,1,0,1,1,0,0,1,0,1,4,50.0,0.10952255421204712,"brown, light_blue, orange, red, indigo, utilities",51,51
+1,1,0,0,1,1,0,1,0,0,4,50.0,0.10949495573346298,"brown, light_blue, red, yellow, indigo",52,52
+1,1,1,1,1,1,1,1,0,1,4,50.0,0.10945443069492493,"brown, light_blue, pink, orange, red, yellow, green, indigo, utilities",53,53
+1,1,1,0,1,1,1,1,0,0,4,50.0,0.10942293261154441,"brown, light_blue, pink, red, yellow, green, indigo",54,54
+1,1,1,1,0,1,0,1,1,1,4,50.0,0.10941658023405818,"brown, light_blue, pink, orange, yellow, indigo, stations, utilities",55,55
+1,1,1,1,1,0,1,1,1,0,4,50.0,0.10940694320802336,"brown, light_blue, pink, orange, red, green, indigo, stations",56,56
+1,1,0,0,1,1,0,1,1,0,4,50.0,0.1093919977176824,"brown, light_blue, red, yellow, indigo, stations",57,57
+1,1,1,1,1,0,1,1,1,1,4,50.0,0.10938309200519107,"brown, light_blue, pink, orange, red, green, indigo, stations, utilities",58,58
+1,1,0,1,1,1,0,1,0,1,4,50.0,0.1093668207239435,"brown, light_blue, orange, red, yellow, indigo, utilities",59,59
+1,1,0,1,0,1,1,0,1,0,4,50.0,0.10935413293197933,"brown, light_blue, orange, yellow, green, stations",60,60
+1,1,0,1,0,1,1,0,0,0,4,50.0,0.10929253787240392,"brown, light_blue, orange, yellow, green",61,61
+1,1,1,1,1,1,0,1,1,0,4,50.0,0.10925064046517989,"brown, light_blue, pink, orange, red, yellow, indigo, stations",62,62
+1,1,0,1,0,1,0,0,0,1,4,50.0,0.1092374900028585,"brown, light_blue, orange, yellow, utilities",63,63
+1,1,1,1,1,0,0,1,1,0,4,50.0,0.1092259487879039,"brown, light_blue, pink, orange, red, indigo, stations",64,64
+1,1,0,1,0,1,1,0,0,1,4,50.0,0.1091886342721347,"brown, light_blue, orange, yellow, green, utilities",65,65
+1,1,0,1,1,1,1,0,1,0,4,50.0,0.10917511483219904,"brown, light_blue, orange, red, yellow, green, stations",66,66
+1,1,0,0,1,1,0,0,0,1,4,50.0,0.10912973531126505,"brown, light_blue, red, yellow, utilities",67,67
+1,1,0,1,0,0,0,0,1,1,4,50.0,0.10912087289527231,"brown, light_blue, orange, stations, utilities",68,68
+1,1,1,1,0,0,0,1,0,0,4,50.0,0.10905457906699638,"brown, light_blue, pink, orange, indigo",69,69
+1,1,0,1,1,0,0,1,1,0,4,50.0,0.10903742280658404,"brown, light_blue, orange, red, indigo, stations",70,70
+1,1,0,1,1,0,1,0,1,0,4,50.0,0.10903036700877984,"brown, light_blue, orange, red, green, stations",71,71
+1,1,0,1,0,0,1,0,0,0,4,50.0,0.10901179527698161,"brown, light_blue, orange, green",72,72
+1,1,0,1,1,0,0,0,1,1,4,50.0,0.10900693459993419,"brown, light_blue, orange, red, stations, utilities",73,73
+1,1,0,1,0,1,1,1,1,0,4,50.0,0.10898667038999459,"brown, light_blue, orange, yellow, green, indigo, stations",74,74
+1,1,0,1,1,0,1,0,0,0,4,50.0,0.1089761392701499,"brown, light_blue, orange, red, green",75,75
+1,1,0,0,1,1,1,0,1,0,4,50.0,0.10897153757279725,"brown, light_blue, red, yellow, green, stations",76,76
+1,1,1,0,1,1,0,1,0,1,4,50.0,0.10895178215813466,"brown, light_blue, pink, red, yellow, indigo, utilities",77,77
+1,1,1,1,0,1,1,0,0,1,4,50.0,0.10894559898697828,"brown, light_blue, pink, orange, yellow, green, utilities",78,78
+1,1,0,1,1,1,0,0,0,1,4,50.0,0.10893132691238969,"brown, light_blue, orange, red, yellow, utilities",79,79
+1,1,1,1,1,0,1,0,1,1,4,50.0,0.10892956152961472,"brown, light_blue, pink, orange, red, green, stations, utilities",80,80
+1,1,1,1,0,0,1,0,1,1,4,50.0,0.10892216997233609,"brown, light_blue, pink, orange, green, stations, utilities",81,81
+1,1,1,1,1,0,1,1,0,0,4,50.0,0.1088872799696147,"brown, light_blue, pink, orange, red, green, indigo",82,82
+1,1,1,1,0,0,0,1,1,1,4,50.0,0.10886304823849166,"brown, light_blue, pink, orange, indigo, stations, utilities",83,83
+1,1,1,1,1,0,0,1,1,1,4,50.0,0.1088433432049569,"brown, light_blue, pink, orange, red, indigo, stations, utilities",84,84
+1,1,1,0,0,1,1,1,0,1,4,50.0,0.10883556450957863,"brown, light_blue, pink, yellow, green, indigo, utilities",85,85
+1,1,0,1,1,1,1,1,0,1,4,50.0,0.10882634862083515,"brown, light_blue, orange, red, yellow, green, indigo, utilities",86,86
+0,0,0,0,1,1,0,0,1,0,4,50.0,0.1088064937127708,"red, yellow, stations",87,87
+1,1,1,1,0,0,1,1,0,1,4,50.0,0.10880029378567098,"brown, light_blue, pink, orange, green, indigo, utilities",88,88
+1,1,0,1,0,1,0,0,1,0,4,50.0,0.10879891097183947,"brown, light_blue, orange, yellow, stations",89,89
+1,1,0,1,1,0,0,0,1,0,4,50.0,0.10874691697430483,"brown, light_blue, orange, red, stations",90,90
+1,1,1,1,1,1,1,1,1,0,4,50.0,0.10873873308948963,"brown, light_blue, pink, orange, red, yellow, green, indigo, stations",91,91
+1,1,1,0,1,1,0,1,0,0,4,50.0,0.10872361644512511,"brown, light_blue, pink, red, yellow, indigo",92,92
+1,1,1,1,1,0,1,0,0,0,4,50.0,0.10872243722613809,"brown, light_blue, pink, orange, red, green",93,93
+1,1,1,1,1,0,0,0,1,1,4,50.0,0.10871456272956023,"brown, light_blue, pink, orange, red, stations, utilities",94,94
+1,1,0,0,1,1,0,0,0,0,4,50.0,0.10869294140805745,"brown, light_blue, red, yellow",95,95
+1,1,0,1,1,1,0,1,1,0,4,50.0,0.10864932986313824,"brown, light_blue, orange, red, yellow, indigo, stations",96,96
+0,0,0,0,1,1,1,1,0,1,4,50.0,0.10864853668767979,"red, yellow, green, indigo, utilities",97,97
+1,1,1,1,0,1,1,0,0,0,4,50.0,0.10862956585148997,"brown, light_blue, pink, orange, yellow, green",98,98
+1,1,1,1,0,1,1,0,1,0,4,50.0,0.10862338760166812,"brown, light_blue, pink, orange, yellow, green, stations",99,99
+1,1,1,1,0,0,0,0,1,0,4,50.0,0.1086032982681294,"brown, light_blue, pink, orange, stations",100,100
+1,1,1,1,0,0,1,0,0,1,4,50.0,0.10855229739500767,"brown, light_blue, pink, orange, green, utilities",101,101
+1,1,1,1,1,1,0,0,0,0,4,50.0,0.10852608382608686,"brown, light_blue, pink, orange, red, yellow",102,102
+1,1,1,1,1,0,1,0,1,0,4,50.0,0.10847946367696745,"brown, light_blue, pink, orange, red, green, stations",103,103
+1,1,0,1,1,0,0,1,0,0,4,50.0,0.10847844991413302,"brown, light_blue, orange, red, indigo",104,104
+1,1,1,1,0,0,1,0,0,0,4,50.0,0.10845711113155201,"brown, light_blue, pink, orange, green",105,105
+1,1,0,1,1,1,0,1,0,0,4,50.0,0.10845381882964475,"brown, light_blue, orange, red, yellow, indigo",106,106
+1,1,0,0,1,1,1,0,0,0,4,50.0,0.10844996025458586,"brown, light_blue, red, yellow, green",107,107
+1,1,0,1,0,0,0,0,1,0,4,50.0,0.1084024847982988,"brown, light_blue, orange, stations",108,108
+1,1,0,1,0,0,1,0,0,1,4,50.0,0.10834640055524074,"brown, light_blue, orange, green, utilities",109,109
+1,1,1,1,1,1,0,1,0,0,4,50.0,0.10834504204878861,"brown, light_blue, pink, orange, red, yellow, indigo",110,110
+1,1,0,1,1,0,1,0,0,1,4,50.0,0.10834377834890821,"brown, light_blue, orange, red, green, utilities",111,111
+1,1,0,1,1,0,0,0,0,0,4,50.0,0.10831966690303492,"brown, light_blue, orange, red",112,112
+1,1,1,1,0,0,0,0,1,1,4,50.0,0.10830714090961142,"brown, light_blue, pink, orange, stations, utilities",113,113
+1,1,1,0,1,1,0,1,1,0,4,50.0,0.10830643585876523,"brown, light_blue, pink, red, yellow, indigo, stations",114,114
+1,1,1,1,0,1,0,1,1,0,4,50.0,0.10830611673862207,"brown, light_blue, pink, orange, yellow, indigo, stations",115,115
+1,1,1,1,1,1,0,0,0,1,4,50.0,0.10830440562544649,"brown, light_blue, pink, orange, red, yellow, utilities",116,116
+1,1,1,1,1,1,0,0,1,0,4,50.0,0.10828647752259121,"brown, light_blue, pink, orange, red, yellow, stations",117,117
+1,1,1,1,0,0,0,1,0,1,4,50.0,0.10828193673383417,"brown, light_blue, pink, orange, indigo, utilities",118,118
+1,1,0,1,1,0,1,0,1,1,4,50.0,0.10827775842642409,"brown, light_blue, orange, red, green, stations, utilities",119,119
+1,1,1,0,1,1,1,1,0,1,4,50.0,0.10826832223098415,"brown, light_blue, pink, red, yellow, green, indigo, utilities",120,120
+1,1,1,1,1,0,0,0,1,0,4,50.0,0.10825603706534326,"brown, light_blue, pink, orange, red, stations",121,121
+1,1,1,1,0,1,1,1,0,1,4,50.0,0.10824217144627894,"brown, light_blue, pink, orange, yellow, green, indigo, utilities",122,122
+1,1,1,1,1,1,1,1,0,0,4,50.0,0.10822529960813917,"brown, light_blue, pink, orange, red, yellow, green, indigo",123,123
+1,1,1,1,0,1,0,0,0,1,4,50.0,0.10821123366548276,"brown, light_blue, pink, orange, yellow, utilities",124,124
+1,1,1,1,0,0,0,1,1,0,4,50.0,0.10818856359437187,"brown, light_blue, pink, orange, indigo, stations",125,125
+1,1,1,0,1,1,0,0,1,0,4,50.0,0.1081854047886482,"brown, light_blue, pink, red, yellow, stations",126,126
+1,1,1,1,0,0,1,0,1,0,4,50.0,0.10817880859070146,"brown, light_blue, pink, orange, green, stations",127,127
+0,1,0,1,0,0,0,1,1,1,4,50.0,0.10817501844592585,"light_blue, orange, indigo, stations, utilities",128,128
+1,1,1,0,1,1,0,0,1,1,4,50.0,0.10816702911076928,"brown, light_blue, pink, red, yellow, stations, utilities",129,129
+1,1,1,1,0,1,1,1,0,0,4,50.0,0.10813549833637297,"brown, light_blue, pink, orange, yellow, green, indigo",130,130
+1,1,0,1,1,1,0,0,0,0,4,50.0,0.10808293563183895,"brown, light_blue, orange, red, yellow",131,131
+1,1,1,1,0,1,0,0,1,1,4,50.0,0.10803368816027295,"brown, light_blue, pink, orange, yellow, stations, utilities",132,132
+1,1,0,1,1,1,1,0,0,0,4,50.0,0.10802619828720372,"brown, light_blue, orange, red, yellow, green",133,133
+1,1,1,0,1,1,1,0,0,1,4,50.0,0.1080212268457829,"brown, light_blue, pink, red, yellow, green, utilities",134,134
+1,0,0,0,1,1,1,1,1,1,4,50.0,0.10800899668075999,"brown, red, yellow, green, indigo, stations, utilities",135,135
+1,1,1,1,0,0,1,1,1,1,4,50.0,0.10798660904876019,"brown, light_blue, pink, orange, green, indigo, stations, utilities",136,136
+1,1,1,1,1,1,0,0,1,1,4,50.0,0.10798571671168311,"brown, light_blue, pink, orange, red, yellow, stations, utilities",137,137
+1,1,1,1,1,1,1,0,0,0,4,50.0,0.1079630519131188,"brown, light_blue, pink, orange, red, yellow, green",138,138
+1,1,1,0,1,1,1,0,1,0,4,50.0,0.10795152538731967,"brown, light_blue, pink, red, yellow, green, stations",139,139
+0,0,0,1,1,1,0,1,1,0,4,50.0,0.10794293159470739,"orange, red, yellow, indigo, stations",140,140
+0,1,0,0,1,1,0,1,1,0,4,50.0,0.10789015579734831,"light_blue, red, yellow, indigo, stations",141,141
+1,1,1,1,1,0,0,0,0,0,4,50.0,0.10786078922581137,"brown, light_blue, pink, orange, red",142,142
+1,1,0,1,1,0,0,1,1,1,4,50.0,0.10785939437568906,"brown, light_blue, orange, red, indigo, stations, utilities",143,143
+1,1,0,0,0,1,0,1,1,1,4,50.0,0.10784921579634195,"brown, light_blue, yellow, indigo, stations, utilities",144,144
+1,1,1,1,0,1,0,1,0,0,4,50.0,0.1078337342693306,"brown, light_blue, pink, orange, yellow, indigo",145,145
+1,1,1,1,0,0,1,1,1,0,4,50.0,0.10782813827736737,"brown, light_blue, pink, orange, green, indigo, stations",146,146
+1,1,0,1,1,0,1,1,0,0,4,50.0,0.1078242299180198,"brown, light_blue, orange, red, green, indigo",147,147
+1,1,1,1,1,0,0,1,0,0,4,50.0,0.10781249911987763,"brown, light_blue, pink, orange, red, indigo",148,148
+0,1,0,0,1,1,1,1,1,0,4,50.0,0.10780904471548822,"light_blue, red, yellow, green, indigo, stations",149,149
+0,1,0,0,0,0,0,1,1,1,4,50.0,0.10780353415834654,"light_blue, indigo, stations, utilities",150,150
+1,1,0,1,1,1,1,0,0,1,4,50.0,0.10776658502331138,"brown, light_blue, orange, red, yellow, green, utilities",151,151
+0,1,0,0,1,0,0,1,0,1,4,50.0,0.10775259699813713,"light_blue, red, indigo, utilities",152,152
+1,1,1,1,0,0,0,0,0,1,4,50.0,0.10775034929253083,"brown, light_blue, pink, orange, utilities",153,153
+1,1,0,1,1,1,1,1,0,0,4,50.0,0.10774756387508848,"brown, light_blue, orange, red, yellow, green, indigo",154,154
+1,1,1,1,0,1,1,0,1,1,4,50.0,0.10771870039873069,"brown, light_blue, pink, orange, yellow, green, stations, utilities",155,155
+1,1,0,0,1,0,0,1,1,1,4,50.0,0.10770693028380618,"brown, light_blue, red, indigo, stations, utilities",156,156
+1,1,0,1,1,1,1,0,1,1,4,50.0,0.10770242355667003,"brown, light_blue, orange, red, yellow, green, stations, utilities",157,157
+0,1,0,0,0,1,1,1,1,1,4,50.0,0.10768025127456453,"light_blue, yellow, green, indigo, stations, utilities",158,158
+1,1,1,0,1,1,1,0,0,0,4,50.0,0.10767914229166245,"brown, light_blue, pink, red, yellow, green",159,159
+1,1,1,0,1,1,0,0,0,1,4,50.0,0.10759581306678619,"brown, light_blue, pink, red, yellow, utilities",160,160
+1,1,1,0,1,1,0,0,0,0,4,50.0,0.10755133685475134,"brown, light_blue, pink, red, yellow",161,161
+0,1,0,0,1,1,0,1,1,1,4,50.0,0.10753233879785477,"light_blue, red, yellow, indigo, stations, utilities",162,162
+1,1,1,1,0,1,1,1,1,0,4,50.0,0.10746921996672709,"brown, light_blue, pink, orange, yellow, green, indigo, stations",163,163
+1,1,1,1,1,0,1,0,0,1,4,50.0,0.10742574152190816,"brown, light_blue, pink, orange, red, green, utilities",164,164
+0,1,0,0,1,0,1,1,0,1,4,50.0,0.10737037387639677,"light_blue, red, green, indigo, utilities",165,165
+1,1,1,1,1,0,0,0,0,1,4,50.0,0.10734070211026905,"brown, light_blue, pink, orange, red, utilities",166,166
+1,1,1,1,1,1,1,0,1,0,4,50.0,0.10732886102448516,"brown, light_blue, pink, orange, red, yellow, green, stations",167,167
+0,1,0,1,0,1,0,1,0,1,4,50.0,0.10729201558329733,"light_blue, orange, yellow, indigo, utilities",168,168
+1,0,0,0,1,0,1,1,1,1,4,50.0,0.10728708854908417,"brown, red, green, indigo, stations, utilities",169,169
+1,1,1,0,1,1,1,1,1,1,4,50.0,0.10728673893543132,"brown, light_blue, pink, red, yellow, green, indigo, stations, utilities",170,170
+0,1,0,0,1,0,1,1,1,1,4,50.0,0.1072709549319331,"light_blue, red, green, indigo, stations, utilities",171,171
+1,1,1,1,0,0,0,0,0,0,4,50.0,0.10720390377685303,"brown, light_blue, pink, orange",172,172
+0,1,0,0,1,0,0,1,1,1,4,50.0,0.10715301120454782,"light_blue, red, indigo, stations, utilities",173,173
+0,1,0,0,0,0,1,1,0,1,4,50.0,0.10714696587881778,"light_blue, green, indigo, utilities",174,174
+1,1,1,1,1,1,0,1,0,1,4,50.0,0.10711962724589999,"brown, light_blue, pink, orange, red, yellow, indigo, utilities",175,175
+1,1,1,1,0,1,0,0,0,0,4,50.0,0.10709374564366517,"brown, light_blue, pink, orange, yellow",176,176
+1,1,1,0,1,1,1,0,1,1,4,50.0,0.10708760440330838,"brown, light_blue, pink, red, yellow, green, stations, utilities",177,177
+0,1,0,0,0,1,0,1,1,1,4,50.0,0.1070805374240775,"light_blue, yellow, indigo, stations, utilities",178,178
+1,0,0,0,1,1,0,1,1,1,4,50.0,0.10698319591740972,"brown, red, yellow, indigo, stations, utilities",179,179
+1,0,0,1,0,0,1,1,1,1,4,50.0,0.10697898268200165,"brown, orange, green, indigo, stations, utilities",180,180
+1,0,0,1,0,1,0,1,0,1,4,50.0,0.10688944542698738,"brown, orange, yellow, indigo, utilities",181,181
+1,1,0,1,0,0,0,0,0,1,4,50.0,0.10687964760973756,"brown, light_blue, orange, utilities",182,182
+1,1,0,1,0,1,1,1,1,1,4,50.0,0.106869459900695,"brown, light_blue, orange, yellow, green, indigo, stations, utilities",183,183
+0,1,0,0,1,0,1,1,1,0,4,50.0,0.1068537648689883,"light_blue, red, green, indigo, stations",184,184
+1,0,0,1,0,1,0,1,1,1,4,50.0,0.10684516557835053,"brown, orange, yellow, indigo, stations, utilities",185,185
+1,1,1,1,0,1,1,1,1,1,4,50.0,0.1067821368369019,"brown, light_blue, pink, orange, yellow, green, indigo, stations, utilities",186,186
+0,1,0,0,1,1,1,1,0,1,4,50.0,0.10670146465370645,"light_blue, red, yellow, green, indigo, utilities",187,187
+1,1,0,1,1,0,0,0,0,1,4,50.0,0.10667744879689964,"brown, light_blue, orange, red, utilities",188,188
+1,1,1,0,0,0,0,1,0,0,4,50.0,0.1066434316749691,"brown, light_blue, pink, indigo",189,189
+1,1,0,0,1,0,0,1,0,1,4,50.0,0.10664139392151387,"brown, light_blue, red, indigo, utilities",190,190
+1,1,0,0,0,1,1,1,1,1,4,50.0,0.1066072883369766,"brown, light_blue, yellow, green, indigo, stations, utilities",191,191
+1,1,1,1,0,1,0,1,0,1,4,50.0,0.10655582740383052,"brown, light_blue, pink, orange, yellow, indigo, utilities",192,192
+1,0,0,0,0,1,1,1,1,1,4,50.0,0.10654561327545573,"brown, yellow, green, indigo, stations, utilities",193,193
+1,1,1,1,1,1,1,0,0,1,4,50.0,0.10647733674965779,"brown, light_blue, pink, orange, red, yellow, green, utilities",194,194
+1,1,0,0,0,0,1,1,0,0,4,50.0,0.10642827599367577,"brown, light_blue, green, indigo",195,195
+0,1,0,0,0,1,0,1,1,0,4,50.0,0.10639202367585712,"light_blue, yellow, indigo, stations",196,196
+1,1,0,1,0,0,0,0,0,0,4,50.0,0.10638617726477766,"brown, light_blue, orange",197,197
+0,1,0,0,1,1,1,1,0,0,4,50.0,0.10635181522903545,"light_blue, red, yellow, green, indigo",198,198
+0,1,0,1,1,0,0,1,0,1,4,50.0,0.10632951900141611,"light_blue, orange, red, indigo, utilities",199,199
+1,1,1,0,1,0,1,1,1,1,4,50.0,0.10632177678104145,"brown, light_blue, pink, red, green, indigo, stations, utilities",200,200
+0,1,0,0,1,1,1,0,1,1,4,50.0,0.10631213297155276,"light_blue, red, yellow, green, stations, utilities",201,201
+1,1,1,0,0,1,1,0,1,1,4,50.0,0.10627525578382371,"brown, light_blue, pink, yellow, green, stations, utilities",202,202
+0,1,1,0,0,0,1,1,1,1,4,50.0,0.10626474466834487,"light_blue, pink, green, indigo, stations, utilities",203,203
+1,0,0,1,1,1,1,1,1,1,4,50.0,0.10625835769507434,"brown, orange, red, yellow, green, indigo, stations, utilities",204,204
+1,1,0,1,1,0,1,1,0,1,4,50.0,0.10625633801469805,"brown, light_blue, orange, red, green, indigo, utilities",205,205
+0,1,0,0,1,0,0,1,1,0,4,50.0,0.10623253846996124,"light_blue, red, indigo, stations",206,206
+1,1,0,0,1,0,0,1,1,0,4,50.0,0.10620267682674163,"brown, light_blue, red, indigo, stations",207,207
+0,1,1,0,0,0,1,1,1,0,4,50.0,0.10618018719695133,"light_blue, pink, green, indigo, stations",208,208
+0,0,1,1,1,1,0,1,1,1,4,50.0,0.10616866209988371,"pink, orange, red, yellow, indigo, stations, utilities",209,209
+1,0,0,0,0,0,1,1,1,1,4,50.0,0.10616865646456326,"brown, green, indigo, stations, utilities",210,210
+0,1,0,1,0,0,0,1,0,1,4,50.0,0.10616285872235473,"light_blue, orange, indigo, utilities",211,211
+0,1,0,0,0,1,1,1,0,1,4,50.0,0.1061571515668048,"light_blue, yellow, green, indigo, utilities",212,212
+1,1,0,0,0,0,1,1,1,1,4,50.0,0.10613110866063873,"brown, light_blue, green, indigo, stations, utilities",213,213
+0,1,1,0,0,0,1,1,0,1,4,50.0,0.10610533028478256,"light_blue, pink, green, indigo, utilities",214,214
+0,1,0,0,0,1,0,1,0,1,4,50.0,0.10609908346847945,"light_blue, yellow, indigo, utilities",215,215
+1,1,0,0,1,0,1,1,0,1,4,50.0,0.10606177483593322,"brown, light_blue, red, green, indigo, utilities",216,216
+0,1,0,0,0,0,1,1,1,1,4,50.0,0.10605700396719416,"light_blue, green, indigo, stations, utilities",217,217
+0,1,1,0,0,0,0,1,1,0,4,50.0,0.10596060212952892,"light_blue, pink, indigo, stations",218,218
+1,0,0,0,1,1,0,1,1,0,4,50.0,0.10592447122312096,"brown, red, yellow, indigo, stations",219,219
+1,0,0,1,0,1,1,1,1,0,4,50.0,0.10592049855881744,"brown, orange, yellow, green, indigo, stations",220,220
+1,0,0,0,1,1,0,1,0,1,4,50.0,0.10591668294929338,"brown, red, yellow, indigo, utilities",221,221
+1,1,0,0,0,0,1,1,0,1,4,50.0,0.10589960252968651,"brown, light_blue, green, indigo, utilities",222,222
+0,1,0,0,0,1,1,1,1,0,4,50.0,0.10589146683123818,"light_blue, yellow, green, indigo, stations",223,223
+0,1,1,0,0,0,0,1,1,1,4,50.0,0.10588033814545221,"light_blue, pink, indigo, stations, utilities",224,224
+1,1,0,0,0,1,1,1,1,0,4,50.0,0.10587635242061899,"brown, light_blue, yellow, green, indigo, stations",225,225
+0,1,0,0,0,1,1,0,1,1,4,50.0,0.10582044178441297,"light_blue, yellow, green, stations, utilities",226,226
+1,1,0,0,1,0,1,1,0,0,4,50.0,0.10581252116125366,"brown, light_blue, red, green, indigo",227,227
+0,0,0,1,0,0,0,0,0,0,4,50.0,0.10580777391907914,orange,228,228
+0,1,0,0,1,0,0,1,0,0,4,50.0,0.10577767820225761,"light_blue, red, indigo",229,229
+0,1,0,0,1,1,1,0,0,1,4,50.0,0.10575267169711107,"light_blue, red, yellow, green, utilities",230,230
+0,1,0,0,1,0,1,1,0,0,4,50.0,0.10575163019500256,"light_blue, red, green, indigo",231,231
+0,1,1,0,0,0,1,0,0,1,4,50.0,0.10573888823928368,"light_blue, pink, green, utilities",232,232
+0,1,1,0,0,0,0,1,0,1,4,50.0,0.10573673756300443,"light_blue, pink, indigo, utilities",233,233
+1,1,0,0,0,1,0,1,0,1,4,50.0,0.10570615731539741,"brown, light_blue, yellow, indigo, utilities",234,234
+1,1,0,0,0,0,0,1,1,1,4,50.0,0.10570192583153482,"brown, light_blue, indigo, stations, utilities",235,235
+0,1,1,1,1,1,0,1,1,1,4,50.0,0.10569752646200574,"light_blue, pink, orange, red, yellow, indigo, stations, utilities",236,236
+1,0,0,0,0,0,0,1,1,1,4,50.0,0.10568375937964278,"brown, indigo, stations, utilities",237,237
+1,0,0,0,1,1,1,0,1,1,4,50.0,0.10566224913336256,"brown, red, yellow, green, stations, utilities",238,238
+1,0,0,0,1,1,0,1,0,0,4,50.0,0.10565177859031927,"brown, red, yellow, indigo",239,239
+1,0,0,0,1,0,0,1,1,0,4,50.0,0.10563259342515505,"brown, red, indigo, stations",240,240
+1,0,0,1,0,0,0,1,0,1,4,50.0,0.10563241848877274,"brown, orange, indigo, utilities",241,241
+0,1,0,0,0,0,0,1,1,0,4,50.0,0.10562758534398467,"light_blue, indigo, stations",242,242
+0,1,0,1,0,0,1,0,1,1,4,50.0,0.10562741073457091,"light_blue, orange, green, stations, utilities",243,243
+1,1,0,0,1,0,1,0,1,1,4,50.0,0.10562069922707969,"brown, light_blue, red, green, stations, utilities",244,244
+0,0,0,0,1,1,1,1,0,0,4,50.0,0.10562000836769958,"red, yellow, green, indigo",245,245
+0,1,0,1,1,0,1,1,1,1,4,50.0,0.10561024638567167,"light_blue, orange, red, green, indigo, stations, utilities",246,246
+1,0,0,0,1,0,1,1,1,0,4,50.0,0.1056028239270274,"brown, red, green, indigo, stations",247,247
+1,0,0,1,0,0,1,1,1,0,4,50.0,0.10557391208368305,"brown, orange, green, indigo, stations",248,248
+0,1,1,0,0,1,0,1,0,0,4,50.0,0.1055584761605545,"light_blue, pink, yellow, indigo",249,249
+0,1,1,0,0,0,1,1,0,0,4,50.0,0.10552022943259479,"light_blue, pink, green, indigo",250,250
+1,0,0,0,0,1,0,1,1,1,4,50.0,0.10550158065346238,"brown, yellow, indigo, stations, utilities",251,251
+1,1,0,0,0,1,0,1,1,0,4,50.0,0.10550008146126202,"brown, light_blue, yellow, indigo, stations",252,252
+0,1,0,1,0,0,0,1,1,0,4,50.0,0.10549999491888515,"light_blue, orange, indigo, stations",253,253
+0,1,0,1,1,0,0,1,1,1,4,50.0,0.1054998496838198,"light_blue, orange, red, indigo, stations, utilities",254,254
+0,1,1,0,0,1,0,0,1,1,4,50.0,0.10548456415488061,"light_blue, pink, yellow, stations, utilities",255,255
+1,0,0,0,0,1,1,1,1,0,4,50.0,0.1054737818587301,"brown, yellow, green, indigo, stations",256,256
+1,1,0,0,0,0,1,1,1,0,4,50.0,0.10546897697802418,"brown, light_blue, green, indigo, stations",257,257
+1,0,0,1,0,1,1,1,0,1,4,50.0,0.10543905032994269,"brown, orange, yellow, green, indigo, utilities",258,258
+0,1,0,0,1,1,0,0,1,1,4,50.0,0.10543358634692668,"light_blue, red, yellow, stations, utilities",259,259
+1,0,0,0,1,0,0,1,0,1,4,50.0,0.10542573122346652,"brown, red, indigo, utilities",260,260
+1,1,0,0,0,1,1,1,0,0,4,50.0,0.10541569349502515,"brown, light_blue, yellow, green, indigo",261,261
+0,1,0,0,0,1,1,1,0,0,4,50.0,0.10540211201494509,"light_blue, yellow, green, indigo",262,262
+1,1,1,0,1,0,0,0,1,1,4,50.0,0.10540156990629779,"brown, light_blue, pink, red, stations, utilities",263,263
+0,0,0,0,1,1,0,0,0,0,4,50.0,0.10538324300065198,"red, yellow",264,264
+1,0,0,0,0,1,0,1,1,0,4,50.0,0.10538074857996041,"brown, yellow, indigo, stations",265,265
+1,1,1,0,1,0,1,1,0,1,4,50.0,0.10537949392911967,"brown, light_blue, pink, red, green, indigo, utilities",266,266
+0,1,0,1,1,0,0,1,1,0,4,50.0,0.10537938178026537,"light_blue, orange, red, indigo, stations",267,267
+1,0,0,1,0,0,0,1,1,1,4,50.0,0.10536130145776099,"brown, orange, indigo, stations, utilities",268,268
+1,0,0,1,0,0,0,1,1,0,4,50.0,0.10535231599010456,"brown, orange, indigo, stations",269,269
+1,1,1,0,1,0,0,1,1,1,4,50.0,0.10535225559942056,"brown, light_blue, pink, red, indigo, stations, utilities",270,270
+1,1,0,0,0,1,1,0,1,1,4,50.0,0.10534374114855485,"brown, light_blue, yellow, green, stations, utilities",271,271
+1,1,0,0,1,0,1,1,1,0,4,50.0,0.1053430069667668,"brown, light_blue, red, green, indigo, stations",272,272
+0,1,0,0,0,0,1,1,1,0,4,50.0,0.10533901342477922,"light_blue, green, indigo, stations",273,273
+1,1,0,0,1,0,1,0,0,1,4,50.0,0.10533436315344065,"brown, light_blue, red, green, utilities",274,274
+1,1,0,0,1,0,0,1,0,0,4,50.0,0.10533343012704766,"brown, light_blue, red, indigo",275,275
+1,1,0,0,0,0,0,1,0,0,4,50.0,0.10533039041533265,"brown, light_blue, indigo",276,276
+1,0,0,0,1,1,1,1,1,0,4,50.0,0.10532012847385815,"brown, red, yellow, green, indigo, stations",277,277
+1,1,1,0,1,0,0,1,1,0,4,50.0,0.1053200169062681,"brown, light_blue, pink, red, indigo, stations",278,278
+1,0,0,0,0,1,1,1,0,1,4,50.0,0.10531516551751308,"brown, yellow, green, indigo, utilities",279,279
+0,1,0,0,0,0,0,1,0,1,4,50.0,0.10530873096342999,"light_blue, indigo, utilities",280,280
+0,1,0,0,1,1,0,1,0,0,4,50.0,0.10529807420936226,"light_blue, red, yellow, indigo",281,281
+1,1,1,0,0,1,0,0,0,0,4,50.0,0.10529049788731078,"brown, light_blue, pink, yellow",282,282
+1,0,0,0,1,1,1,1,0,1,4,50.0,0.1052702837436242,"brown, red, yellow, green, indigo, utilities",283,283
+0,1,0,1,0,0,0,1,0,0,4,50.0,0.10526710406510283,"light_blue, orange, indigo",284,284
+1,0,0,0,1,0,1,1,0,1,4,50.0,0.10525710109420791,"brown, red, green, indigo, utilities",285,285
+1,1,0,0,0,0,1,0,0,0,4,50.0,0.10519541022149112,"brown, light_blue, green",286,286
+1,0,0,0,0,0,1,1,1,0,4,50.0,0.10517253431231968,"brown, green, indigo, stations",287,287
+1,1,0,0,1,0,1,0,1,0,4,50.0,0.1051724944081192,"brown, light_blue, red, green, stations",288,288
+1,0,0,1,0,0,0,1,0,0,4,50.0,0.10516923660689659,"brown, orange, indigo",289,289
+1,1,0,0,0,0,0,1,1,0,4,50.0,0.10516520265903313,"brown, light_blue, indigo, stations",290,290
+1,0,0,1,0,1,0,0,1,1,4,50.0,0.10516331049527419,"brown, orange, yellow, stations, utilities",291,291
+1,0,0,0,1,0,0,1,1,1,4,50.0,0.10516056175157584,"brown, red, indigo, stations, utilities",292,292
+0,1,0,0,0,0,1,1,0,0,4,50.0,0.10514800818679362,"light_blue, green, indigo",293,293
+1,0,0,0,0,0,0,1,1,0,4,50.0,0.10514423718380657,"brown, indigo, stations",294,294
+1,1,1,0,0,1,0,0,1,1,4,50.0,0.10514370384448365,"brown, light_blue, pink, yellow, stations, utilities",295,295
+0,1,0,0,1,1,1,0,1,0,4,50.0,0.10513951593668489,"light_blue, red, yellow, green, stations",296,296
+0,1,0,0,0,1,0,1,0,0,4,50.0,0.10511513542795699,"light_blue, yellow, indigo",297,297
+1,0,0,1,0,1,1,1,0,0,4,50.0,0.10509045594211412,"brown, orange, yellow, green, indigo",298,298
+0,1,1,0,0,1,0,0,0,1,4,50.0,0.10508381407562373,"light_blue, pink, yellow, utilities",299,299
+0,1,0,0,0,0,0,1,0,0,4,50.0,0.10507978783714358,"light_blue, indigo",300,300
+1,0,0,0,0,0,0,0,1,1,4,50.0,0.10506278050679016,"brown, stations, utilities",301,301
+0,1,0,0,1,0,1,0,0,1,4,50.0,0.1050568773471681,"light_blue, red, green, utilities",302,302
+0,1,0,0,1,0,1,0,1,1,4,50.0,0.10504317673402945,"light_blue, red, green, stations, utilities",303,303
+1,0,0,1,0,0,0,0,0,0,4,50.0,0.10503859042894839,"brown, orange",304,304
+0,1,0,1,1,1,0,1,0,0,4,50.0,0.10501961213556103,"light_blue, orange, red, yellow, indigo",305,305
+1,0,0,0,1,0,1,0,1,0,4,50.0,0.10501046120318294,"brown, red, green, stations",306,306
+0,1,1,0,0,1,0,0,0,0,4,50.0,0.10499890310220401,"light_blue, pink, yellow",307,307
+1,0,0,1,1,0,0,0,0,1,4,50.0,0.1049924965496201,"brown, orange, red, utilities",308,308
+1,0,0,1,0,1,0,0,0,0,4,50.0,0.10498882396496398,"brown, orange, yellow",309,309
+1,0,0,0,0,1,0,1,0,0,4,50.0,0.10497950920717847,"brown, yellow, indigo",310,310
+1,0,0,0,0,1,0,0,1,0,4,50.0,0.10497764149564959,"brown, yellow, stations",311,311
+0,0,0,0,1,1,1,1,1,0,4,50.0,0.10497636951303249,"red, yellow, green, indigo, stations",312,312
+0,1,0,1,0,1,1,1,1,0,4,50.0,0.10496754096799366,"light_blue, orange, yellow, green, indigo, stations",313,313
+1,1,0,0,0,1,0,0,1,1,4,50.0,0.10496208359462644,"brown, light_blue, yellow, stations, utilities",314,314
+1,0,0,0,1,0,1,1,0,0,4,50.0,0.10495963007939946,"brown, red, green, indigo",315,315
+0,1,1,0,0,0,0,1,0,0,4,50.0,0.10494333636154814,"light_blue, pink, indigo",316,316
+1,0,0,0,1,1,1,1,0,0,4,50.0,0.104933845897722,"brown, red, yellow, green, indigo",317,317
+1,1,0,0,0,1,1,1,0,1,4,50.0,0.1049308912218722,"brown, light_blue, yellow, green, indigo, utilities",318,318
+1,0,0,0,0,1,1,1,0,0,4,50.0,0.10490800188330238,"brown, yellow, green, indigo",319,319
+1,1,1,0,0,1,0,0,0,1,4,50.0,0.1049070453644351,"brown, light_blue, pink, yellow, utilities",320,320
+1,1,0,0,0,0,0,1,0,1,4,50.0,0.10490255629760621,"brown, light_blue, indigo, utilities",321,321
+1,1,1,0,1,0,0,0,0,0,4,50.0,0.10489652170865513,"brown, light_blue, pink, red",322,322
+1,1,1,0,0,0,1,1,0,0,4,50.0,0.10489331572898368,"brown, light_blue, pink, green, indigo",323,323
+1,0,0,0,1,0,1,0,1,1,4,50.0,0.10488815293572862,"brown, red, green, stations, utilities",324,324
+1,1,1,0,1,0,1,0,1,1,4,50.0,0.1048873137149013,"brown, light_blue, pink, red, green, stations, utilities",325,325
+1,0,0,1,0,0,1,0,1,1,4,50.0,0.10488246908018084,"brown, orange, green, stations, utilities",326,326
+0,1,1,0,0,0,1,0,1,0,4,50.0,0.10487776024137219,"light_blue, pink, green, stations",327,327
+1,0,0,1,0,0,1,0,0,0,4,50.0,0.10486679659897162,"brown, orange, green",328,328
+1,1,0,0,0,1,1,0,0,1,4,50.0,0.10486563350093818,"brown, light_blue, yellow, green, utilities",329,329
+1,1,0,0,1,0,0,0,1,1,4,50.0,0.10485695884792481,"brown, light_blue, red, stations, utilities",330,330
+1,1,1,0,0,1,1,1,1,1,4,50.0,0.10484975280604877,"brown, light_blue, pink, yellow, green, indigo, stations, utilities",331,331
+1,0,0,1,0,0,1,1,0,1,4,50.0,0.10484869755502772,"brown, orange, green, indigo, utilities",332,332
+0,0,0,0,1,1,0,1,0,1,4,50.0,0.10484834529413048,"red, yellow, indigo, utilities",333,333
+0,1,0,1,1,0,1,1,1,0,4,50.0,0.10482316567833787,"light_blue, orange, red, green, indigo, stations",334,334
+0,1,0,1,0,0,1,1,1,1,4,50.0,0.10480200501671857,"light_blue, orange, green, indigo, stations, utilities",335,335
+1,0,0,0,1,1,1,0,0,1,4,50.0,0.10479372260056455,"brown, red, yellow, green, utilities",336,336
+0,1,1,0,0,0,0,0,1,0,4,50.0,0.1047811611454857,"light_blue, pink, stations",337,337
+1,0,0,1,0,0,1,1,0,0,4,50.0,0.10477928816150454,"brown, orange, green, indigo",338,338
+1,1,1,0,1,0,0,0,0,1,4,50.0,0.10477294362746388,"brown, light_blue, pink, red, utilities",339,339
+0,0,0,0,1,1,0,1,1,0,4,50.0,0.10477235481750566,"red, yellow, indigo, stations",340,340
+1,1,1,0,1,0,1,0,0,1,4,50.0,0.10476250564440152,"brown, light_blue, pink, red, green, utilities",341,341
+1,1,0,0,0,1,0,1,0,0,4,50.0,0.10475253211050455,"brown, light_blue, yellow, indigo",342,342
+0,1,0,0,0,1,0,0,1,0,4,50.0,0.10472975124497605,"light_blue, yellow, stations",343,343
+0,1,0,1,1,1,0,1,0,1,4,50.0,0.10472646456013787,"light_blue, orange, red, yellow, indigo, utilities",344,344
+0,1,0,1,0,1,1,0,1,1,4,50.0,0.10472396935829645,"light_blue, orange, yellow, green, stations, utilities",345,345
+1,0,0,1,0,1,1,0,0,1,4,50.0,0.10469819076134393,"brown, orange, yellow, green, utilities",346,346
+1,0,0,0,0,0,1,0,1,0,4,50.0,0.10468866484939092,"brown, green, stations",347,347
+1,1,1,0,0,0,0,0,0,0,4,50.0,0.10468654020097179,"brown, light_blue, pink",348,348
+1,0,0,0,0,1,0,0,1,1,4,50.0,0.10467736931712031,"brown, yellow, stations, utilities",349,349
+0,1,1,0,0,1,0,0,1,0,4,50.0,0.10467416671812171,"light_blue, pink, yellow, stations",350,350
+1,0,0,0,1,1,1,0,0,0,4,50.0,0.1046729358672774,"brown, red, yellow, green",351,351
+0,1,0,0,0,1,0,0,0,1,4,50.0,0.10466380564131668,"light_blue, yellow, utilities",352,352
+1,0,0,0,0,0,1,1,0,1,4,50.0,0.10466329494632029,"brown, green, indigo, utilities",353,353
+1,1,0,0,0,0,1,0,1,1,4,50.0,0.10466100360394434,"brown, light_blue, green, stations, utilities",354,354
+0,1,0,0,1,1,0,0,1,0,4,50.0,0.10464556710172826,"light_blue, red, yellow, stations",355,355
+1,1,0,0,1,0,1,0,0,0,4,50.0,0.10463933969914063,"brown, light_blue, red, green",356,356
+1,1,1,0,1,0,1,1,0,0,4,50.0,0.10463733053197972,"brown, light_blue, pink, red, green, indigo",357,357
+1,1,0,0,0,1,0,0,0,1,4,50.0,0.10462731231595082,"brown, light_blue, yellow, utilities",358,358
+0,1,0,0,0,1,0,0,1,1,4,50.0,0.10462695014887786,"light_blue, yellow, stations, utilities",359,359
+1,0,0,0,1,0,0,0,1,0,4,50.0,0.10458951511888928,"brown, red, stations",360,360
+0,1,0,1,0,1,0,1,0,0,4,50.0,0.10458689223088191,"light_blue, orange, yellow, indigo",361,361
+1,0,0,0,1,0,0,0,0,0,4,50.0,0.10457974609819447,"brown, red",362,362
+0,1,0,1,1,0,1,1,0,0,4,50.0,0.10456585669272314,"light_blue, orange, red, green, indigo",363,363
+1,0,0,1,0,1,0,1,0,0,4,50.0,0.1045622279430561,"brown, orange, yellow, indigo",364,364
+1,0,0,0,0,1,0,0,0,0,4,50.0,0.10455937506315538,"brown, yellow",365,365
+0,1,0,1,1,1,0,1,1,0,4,50.0,0.10455919538294567,"light_blue, orange, red, yellow, indigo, stations",366,366
+0,1,0,0,0,0,1,0,1,0,4,50.0,0.10454404998559227,"light_blue, green, stations",367,367
+0,1,0,1,1,1,1,1,0,0,4,50.0,0.10453033612199931,"light_blue, orange, red, yellow, green, indigo",368,368
+1,0,0,1,1,0,0,0,0,0,4,50.0,0.10452983227903448,"brown, orange, red",369,369
+0,1,0,0,1,0,0,0,0,1,4,50.0,0.10452269257209797,"light_blue, red, utilities",370,370
+0,1,0,0,0,1,1,0,1,0,4,50.0,0.10451666689829157,"light_blue, yellow, green, stations",371,371
+1,0,0,1,0,1,0,0,0,1,4,50.0,0.10451339645466376,"brown, orange, yellow, utilities",372,372
+1,0,0,0,1,1,0,0,0,0,4,50.0,0.10451086812232564,"brown, red, yellow",373,373
+0,0,0,1,1,1,1,1,0,0,4,50.0,0.10451081565403794,"orange, red, yellow, green, indigo",374,374
+0,1,0,1,0,1,0,0,1,1,4,50.0,0.10450365515499263,"light_blue, orange, yellow, stations, utilities",375,375
+1,0,0,0,0,1,1,0,1,1,4,50.0,0.10450110851617525,"brown, yellow, green, stations, utilities",376,376
+1,1,1,0,1,0,0,1,0,1,4,50.0,0.10449579984651328,"brown, light_blue, pink, red, indigo, utilities",377,377
+1,0,0,1,0,0,0,0,1,0,4,50.0,0.10449578555568273,"brown, orange, stations",378,378
+0,1,0,1,1,0,1,0,1,1,4,50.0,0.10449492500297983,"light_blue, orange, red, green, stations, utilities",379,379
+1,1,1,0,0,1,0,0,1,0,4,50.0,0.10449414396637229,"brown, light_blue, pink, yellow, stations",380,380
+1,1,0,0,1,0,0,0,0,0,4,50.0,0.10449175073893606,"brown, light_blue, red",381,381
+1,1,1,0,0,0,0,0,1,0,4,50.0,0.10448625963490436,"brown, light_blue, pink, stations",382,382
+0,1,1,0,0,0,1,0,1,1,4,50.0,0.10448403646054683,"light_blue, pink, green, stations, utilities",383,383
+1,0,0,0,0,1,0,1,0,1,4,50.0,0.1044810570809224,"brown, yellow, indigo, utilities",384,384
+0,1,1,0,0,0,0,0,0,1,4,50.0,0.10448084712013339,"light_blue, pink, utilities",385,385
+1,0,0,0,0,0,0,0,0,1,4,50.0,0.10447913162229235,"brown, utilities",386,386
+0,1,0,1,0,1,0,1,1,0,4,50.0,0.10447460529476318,"light_blue, orange, yellow, indigo, stations",387,387
+0,1,0,1,0,0,0,0,0,1,4,50.0,0.1044739419459864,"light_blue, orange, utilities",388,388
+0,1,0,1,0,0,0,0,1,1,4,50.0,0.1044738307794485,"light_blue, orange, stations, utilities",389,389
+0,1,0,0,0,0,1,0,0,1,4,50.0,0.10447238688842835,"light_blue, green, utilities",390,390
+1,0,0,0,0,0,0,0,1,0,4,50.0,0.10446889775684173,"brown, stations",391,391
+1,0,0,0,0,0,0,0,0,0,4,50.0,0.10445988493064148,brown,392,392
+1,1,0,0,0,1,0,0,0,0,4,50.0,0.10445848064237526,"brown, light_blue, yellow",393,393
+1,0,0,1,0,0,1,0,1,0,4,50.0,0.10445427009408903,"brown, orange, green, stations",394,394
+1,0,0,0,1,0,0,1,0,0,4,50.0,0.10445340932076104,"brown, red, indigo",395,395
+1,1,1,0,0,0,1,0,1,1,4,50.0,0.10444993215053293,"brown, light_blue, pink, green, stations, utilities",396,396
+0,1,0,0,0,0,0,0,0,0,4,50.0,0.10444823762861474,light_blue,397,397
+1,1,0,0,0,0,0,0,0,0,4,50.0,0.10444233042438508,"brown, light_blue",398,398
+0,1,0,0,1,0,1,0,1,0,4,50.0,0.10443237376540253,"light_blue, red, green, stations",399,399
+0,1,1,0,0,0,0,0,1,1,4,50.0,0.1044316353239457,"light_blue, pink, stations, utilities",400,400
+0,0,0,0,0,0,0,0,0,1,4,50.0,0.10443034628730888,utilities,401,401
+0,0,0,0,0,0,0,0,0,0,4,50.0,0.10442463267719324,(none),402,402
+0,1,0,1,1,1,1,0,1,1,4,50.0,0.10442054752958793,"light_blue, orange, red, yellow, green, stations, utilities",403,403
+0,0,0,0,0,1,0,0,0,0,4,50.0,0.10439890670056302,yellow,404,404
+0,1,1,0,0,0,0,0,0,0,4,50.0,0.10439545759723608,"light_blue, pink",405,405
+0,1,0,0,1,0,0,0,0,0,4,50.0,0.1043920178371028,"light_blue, red",406,406
+0,0,1,0,0,0,0,0,0,1,4,50.0,0.10438744483044955,"pink, utilities",407,407
+1,1,0,0,1,0,0,0,1,0,4,50.0,0.10438580450279455,"brown, light_blue, red, stations",408,408
+1,1,0,0,0,1,1,0,0,0,4,50.0,0.10438168947379844,"brown, light_blue, yellow, green",409,409
+1,1,0,0,0,1,1,0,1,0,4,50.0,0.10438070483892452,"brown, light_blue, yellow, green, stations",410,410
+0,1,0,0,0,0,1,0,1,1,4,50.0,0.10437293472859806,"light_blue, green, stations, utilities",411,411
+1,0,0,0,0,1,0,0,0,1,4,50.0,0.10437220607734758,"brown, yellow, utilities",412,412
+1,0,0,1,0,0,0,0,0,1,4,50.0,0.10436263413167397,"brown, orange, utilities",413,413
+0,1,0,0,0,1,1,0,0,1,4,50.0,0.10435729379786621,"light_blue, yellow, green, utilities",414,414
+0,1,1,0,0,0,1,0,0,0,4,50.0,0.10435564818406853,"light_blue, pink, green",415,415
+0,0,0,0,1,1,0,1,0,0,4,50.0,0.10435320355627428,"red, yellow, indigo",416,416
+0,1,0,1,1,0,0,1,0,0,4,50.0,0.10434576678576299,"light_blue, orange, red, indigo",417,417
+1,1,1,0,0,0,1,0,0,0,4,50.0,0.10434529617330865,"brown, light_blue, pink, green",418,418
+0,1,0,0,1,1,1,0,0,0,4,50.0,0.10433740115826437,"light_blue, red, yellow, green",419,419
+1,0,0,0,1,1,0,0,0,1,4,50.0,0.10433195775216872,"brown, red, yellow, utilities",420,420
+1,0,0,0,1,1,1,0,1,0,4,50.0,0.10432780071329403,"brown, red, yellow, green, stations",421,421
+0,0,1,0,0,0,0,0,0,0,4,50.0,0.10432701173304046,pink,422,422
+0,1,0,0,1,0,0,0,1,1,4,50.0,0.10432658883597508,"light_blue, red, stations, utilities",423,423
+0,1,0,1,0,0,0,0,0,0,4,50.0,0.10432184329358393,"light_blue, orange",424,424
+0,1,0,1,1,0,1,0,0,1,4,50.0,0.10431535733003039,"light_blue, orange, red, green, utilities",425,425
+0,0,0,0,0,0,1,0,1,0,4,50.0,0.10431131234443361,"green, stations",426,426
+1,1,1,0,0,0,0,0,0,1,4,50.0,0.10431129421940485,"brown, light_blue, pink, utilities",427,427
+1,0,0,1,0,0,1,0,0,1,4,50.0,0.10430322076844675,"brown, orange, green, utilities",428,428
+0,1,0,1,1,1,1,0,1,0,4,50.0,0.10429644240398546,"light_blue, orange, red, yellow, green, stations",429,429
+1,1,0,0,0,1,0,0,1,0,4,50.0,0.10429616948219537,"brown, light_blue, yellow, stations",430,430
+0,1,0,0,0,0,0,0,0,1,4,50.0,0.10429379035182049,"light_blue, utilities",431,431
+1,1,0,0,0,0,0,0,1,0,4,50.0,0.1042895780582608,"brown, light_blue, stations",432,432
+0,1,0,0,0,0,0,0,1,0,4,50.0,0.10428762727862206,"light_blue, stations",433,433
+1,0,0,0,1,1,0,0,1,1,4,50.0,0.10428241693684766,"brown, red, yellow, stations, utilities",434,434
+0,1,0,1,0,1,0,0,0,1,4,50.0,0.10428185729351477,"light_blue, orange, yellow, utilities",435,435
+1,1,0,0,0,0,0,0,0,1,4,50.0,0.10428065322560212,"brown, light_blue, utilities",436,436
+1,0,0,0,0,1,1,0,1,0,4,50.0,0.10427712307927325,"brown, yellow, green, stations",437,437
+0,1,0,1,1,1,0,0,0,0,4,50.0,0.1042740267149562,"light_blue, orange, red, yellow",438,438
+1,0,0,0,1,0,1,0,0,0,4,50.0,0.10426572206941398,"brown, red, green",439,439
+0,1,0,1,1,0,0,0,0,1,4,50.0,0.10426555883165955,"light_blue, orange, red, utilities",440,440
+1,0,0,0,0,1,1,0,0,1,4,50.0,0.1042572354212534,"brown, yellow, green, utilities",441,441
+1,1,1,0,0,0,0,1,1,1,4,50.0,0.10423981307839558,"brown, light_blue, pink, indigo, stations, utilities",442,442
+1,0,0,0,0,0,1,1,0,0,4,50.0,0.10423882847797347,"brown, green, indigo",443,443
+0,1,0,1,0,1,1,0,0,1,4,50.0,0.10423369352039895,"light_blue, orange, yellow, green, utilities",444,444
+0,1,0,0,0,0,0,0,1,1,4,50.0,0.10422878685428852,"light_blue, stations, utilities",445,445
+0,1,0,0,0,1,0,0,0,0,4,50.0,0.10422650870068836,"light_blue, yellow",446,446
+1,1,1,0,0,0,1,1,1,0,4,50.0,0.10422221984915814,"brown, light_blue, pink, green, indigo, stations",447,447
+1,0,0,0,1,0,1,0,0,1,4,50.0,0.10422082974882049,"brown, red, green, utilities",448,448
+1,0,0,0,0,1,1,0,0,0,4,50.0,0.10422047484090105,"brown, yellow, green",449,449
+0,1,0,1,0,0,1,1,1,0,4,50.0,0.10422000807091465,"light_blue, orange, green, indigo, stations",450,450
+0,0,0,0,0,0,0,0,1,0,4,50.0,0.10421844528112625,stations,451,451
+0,0,0,0,0,1,0,0,1,0,4,50.0,0.1041970089238466,"yellow, stations",452,452
+0,1,0,1,1,1,1,1,1,1,4,50.0,0.10419090230169406,"light_blue, orange, red, yellow, green, indigo, stations, utilities",453,453
+0,1,0,0,1,0,1,0,0,0,4,50.0,0.10419010995264084,"light_blue, red, green",454,454
+1,1,0,0,0,0,1,0,0,1,4,50.0,0.10418228506752802,"brown, light_blue, green, utilities",455,455
+0,1,0,1,0,1,1,1,0,0,4,50.0,0.10418037203641924,"light_blue, orange, yellow, green, indigo",456,456
+0,1,0,1,1,0,0,0,1,0,4,50.0,0.104179616268819,"light_blue, orange, red, stations",457,457
+1,0,0,1,0,1,1,0,0,0,4,50.0,0.10417303911541573,"brown, orange, yellow, green",458,458
+0,1,1,1,1,1,0,1,0,1,4,50.0,0.10417200266529596,"light_blue, pink, orange, red, yellow, indigo, utilities",459,459
+0,1,0,0,0,1,1,0,0,0,4,50.0,0.10416492161930144,"light_blue, yellow, green",460,460
+1,1,1,0,0,0,1,1,1,1,4,50.0,0.10414577485582248,"brown, light_blue, pink, green, indigo, stations, utilities",461,461
+0,1,0,0,0,0,1,0,0,0,4,50.0,0.1041446006446407,"light_blue, green",462,462
+1,0,0,0,0,0,0,1,0,0,4,50.0,0.10414082283800805,"brown, indigo",463,463
+1,1,1,0,1,0,1,0,0,0,4,50.0,0.10413676030976107,"brown, light_blue, pink, red, green",464,464
+0,1,0,1,1,0,0,0,1,1,4,50.0,0.10411929720030044,"light_blue, orange, red, stations, utilities",465,465
+1,1,1,0,0,1,0,1,1,0,4,50.0,0.10408786273044017,"brown, light_blue, pink, yellow, indigo, stations",466,466
+1,0,0,0,1,0,0,0,0,1,4,50.0,0.10408427744127172,"brown, red, utilities",467,467
+1,1,1,0,0,1,0,1,1,1,4,50.0,0.10407998607633759,"brown, light_blue, pink, yellow, indigo, stations, utilities",468,468
+1,1,1,0,0,1,1,0,0,1,4,50.0,0.10406753479796929,"brown, light_blue, pink, yellow, green, utilities",469,469
+0,1,0,1,1,0,0,0,0,0,4,50.0,0.10406318042043686,"light_blue, orange, red",470,470
+0,0,1,0,0,0,0,0,1,0,4,50.0,0.10405225190689231,"pink, stations",471,471
+1,0,0,1,0,1,0,1,1,0,4,50.0,0.10405108805760646,"brown, orange, yellow, indigo, stations",472,472
+0,1,0,1,1,0,1,0,0,0,4,50.0,0.10404191549484873,"light_blue, orange, red, green",473,473
+0,1,0,1,0,0,1,1,0,1,4,50.0,0.1040207609176748,"light_blue, orange, green, indigo, utilities",474,474
+1,0,0,0,1,1,0,0,1,0,4,50.0,0.10400649541734133,"brown, red, yellow, stations",475,475
+0,0,0,1,0,0,0,0,1,0,4,50.0,0.10400533200656015,"orange, stations",476,476
+1,0,0,0,0,0,0,1,0,1,4,50.0,0.10400164064000747,"brown, indigo, utilities",477,477
+1,1,1,0,1,0,0,0,1,0,4,50.0,0.10398995853762916,"brown, light_blue, pink, red, stations",478,478
+1,0,0,0,1,0,0,0,1,1,4,50.0,0.10398276954171988,"brown, red, stations, utilities",479,479
+0,0,0,1,1,1,1,1,1,0,4,50.0,0.10397072998710988,"orange, red, yellow, green, indigo, stations",480,480
+1,0,0,1,0,1,0,0,1,0,4,50.0,0.10395463503031359,"brown, orange, yellow, stations",481,481
+1,1,1,0,0,1,1,1,0,0,4,50.0,0.10393070255132733,"brown, light_blue, pink, yellow, green, indigo",482,482
+0,0,0,0,1,1,1,0,0,1,4,50.0,0.10392848203015377,"red, yellow, green, utilities",483,483
+0,1,0,1,0,1,1,0,0,0,4,50.0,0.10392591276335594,"light_blue, orange, yellow, green",484,484
+0,0,0,0,1,0,0,0,0,0,4,50.0,0.1039163970087138,red,485,485
+1,1,0,0,0,0,0,0,1,1,4,50.0,0.10389912709639051,"brown, light_blue, stations, utilities",486,486
+0,1,0,1,1,1,0,0,1,0,4,50.0,0.10388358737478301,"light_blue, orange, red, yellow, stations",487,487
+0,0,0,1,0,0,1,0,0,0,4,50.0,0.10385355919552257,"orange, green",488,488
+0,0,0,1,1,0,0,0,0,0,4,50.0,0.10383035413235878,"orange, red",489,489
+0,0,1,1,0,0,0,0,0,0,4,50.0,0.10381264276904509,"pink, orange",490,490
+0,1,0,1,1,1,0,0,0,1,4,50.0,0.10381023397241748,"light_blue, orange, red, yellow, utilities",491,491
+0,0,1,1,1,1,1,1,1,1,4,50.0,0.10380702301777153,"pink, orange, red, yellow, green, indigo, stations, utilities",492,492
+1,0,0,0,0,0,1,0,0,0,4,50.0,0.10376974620777887,"brown, green",493,493
+1,1,0,0,1,0,0,0,0,1,4,50.0,0.10375803152236449,"brown, light_blue, red, utilities",494,494
+0,1,0,1,0,0,1,0,0,1,4,50.0,0.10375221998533483,"light_blue, orange, green, utilities",495,495
+0,1,0,0,1,1,0,0,0,1,4,50.0,0.10374479191227937,"light_blue, red, yellow, utilities",496,496
+0,1,0,1,1,1,1,0,0,1,4,50.0,0.10373772215492143,"light_blue, orange, red, yellow, green, utilities",497,497
+0,1,0,0,1,1,0,0,0,0,4,50.0,0.10372473998731213,"light_blue, red, yellow",498,498
+0,0,0,1,1,1,0,1,0,0,4,50.0,0.10372067829098522,"orange, red, yellow, indigo",499,499
+1,1,1,0,0,0,1,0,0,1,4,50.0,0.10371681074177083,"brown, light_blue, pink, green, utilities",500,500
+0,1,0,1,0,1,1,0,1,0,4,50.0,0.10371575023214981,"light_blue, orange, yellow, green, stations",501,501
+1,1,1,0,1,0,0,1,0,0,4,50.0,0.10371568299238934,"brown, light_blue, pink, red, indigo",502,502
+1,0,0,0,0,0,1,0,0,1,4,50.0,0.1036986554615481,"brown, green, utilities",503,503
+0,0,0,1,1,1,0,1,1,1,4,50.0,0.10368976956778875,"orange, red, yellow, indigo, stations, utilities",504,504
+1,1,1,0,0,1,1,0,1,0,4,50.0,0.1036870846277745,"brown, light_blue, pink, yellow, green, stations",505,505
+1,0,0,1,0,1,1,0,1,0,4,50.0,0.10367663167046234,"brown, orange, yellow, green, stations",506,506
+0,1,0,1,0,1,1,1,0,1,4,50.0,0.10367643181570363,"light_blue, orange, yellow, green, indigo, utilities",507,507
+0,1,0,1,1,0,1,1,0,1,4,50.0,0.1036450354442208,"light_blue, orange, red, green, indigo, utilities",508,508
+0,0,1,0,1,0,0,0,0,0,4,50.0,0.10364129891731333,"pink, red",509,509
+0,1,0,1,1,1,1,0,0,0,4,50.0,0.10363926380516801,"light_blue, orange, red, yellow, green",510,510
+1,1,1,0,0,0,0,1,1,0,4,50.0,0.10362795796578683,"brown, light_blue, pink, indigo, stations",511,511
+0,0,1,0,1,1,1,1,0,1,4,50.0,0.10360336251288985,"pink, red, yellow, green, indigo, utilities",512,512
+1,0,0,1,0,1,1,0,1,1,4,50.0,0.10357353040140156,"brown, orange, yellow, green, stations, utilities",513,513
+0,0,0,1,1,0,1,0,0,0,4,50.0,0.10357135817660093,"orange, red, green",514,514
+0,0,1,0,1,1,1,1,1,0,4,50.0,0.10355622697678953,"pink, red, yellow, green, indigo, stations",515,515
+0,0,0,0,1,0,0,0,1,0,4,50.0,0.10355086142949377,"red, stations",516,516
+1,1,1,0,0,0,1,1,0,1,4,50.0,0.10354895804570427,"brown, light_blue, pink, green, indigo, utilities",517,517
+0,0,1,0,0,0,1,0,0,0,4,50.0,0.10352005645770139,"pink, green",518,518
+1,1,1,0,0,0,0,0,1,1,4,50.0,0.10350464080485877,"brown, light_blue, pink, stations, utilities",519,519
+0,0,0,0,1,0,0,0,0,1,4,50.0,0.10350060363854804,"red, utilities",520,520
+0,1,0,1,0,1,1,1,1,1,4,50.0,0.10348765697635642,"light_blue, orange, yellow, green, indigo, stations, utilities",521,521
+0,0,0,1,0,0,1,0,1,0,4,50.0,0.10348025659894629,"orange, green, stations",522,522
+1,0,0,1,0,0,0,0,1,1,4,50.0,0.10347566332385354,"brown, orange, stations, utilities",523,523
+0,0,0,1,0,1,0,0,0,0,4,50.0,0.10347083216152335,"orange, yellow",524,524
+0,1,0,1,0,1,0,0,1,0,4,50.0,0.10345344495435276,"light_blue, orange, yellow, stations",525,525
+0,0,1,0,0,1,1,0,0,0,4,50.0,0.10345225944082947,"pink, yellow, green",526,526
+1,1,1,0,0,1,1,0,0,0,4,50.0,0.10344826491745573,"brown, light_blue, pink, yellow, green",527,527
+0,1,0,0,1,0,0,0,1,0,4,50.0,0.10344702585826464,"light_blue, red, stations",528,528
+1,0,1,0,1,1,0,1,1,1,4,50.0,0.10341892031849435,"brown, pink, red, yellow, indigo, stations, utilities",529,529
+0,0,0,1,1,1,0,0,0,1,4,50.0,0.10341665848009092,"orange, red, yellow, utilities",530,530
+1,1,1,0,0,0,0,1,0,1,4,50.0,0.10339794927192487,"brown, light_blue, pink, indigo, utilities",531,531
+0,0,1,0,0,0,1,0,0,1,4,50.0,0.1033867651656661,"pink, green, utilities",532,532
+0,0,1,0,0,0,0,0,1,1,4,50.0,0.1033785372881535,"pink, stations, utilities",533,533
+0,0,1,1,0,0,1,0,0,0,4,50.0,0.1033653789869496,"pink, orange, green",534,534
+0,0,0,1,1,1,0,1,0,1,4,50.0,0.10336050709227458,"orange, red, yellow, indigo, utilities",535,535
+0,0,0,1,0,0,0,0,0,1,4,50.0,0.10333388669997276,"orange, utilities",536,536
+1,1,1,0,0,1,0,1,0,0,4,50.0,0.10331813462751287,"brown, light_blue, pink, yellow, indigo",537,537
+1,1,1,0,1,0,1,0,1,0,4,50.0,0.10329730326855784,"brown, light_blue, pink, red, green, stations",538,538
+0,0,1,1,0,0,0,0,0,1,4,50.0,0.10328480330341797,"pink, orange, utilities",539,539
+0,1,0,1,0,0,0,0,1,0,4,50.0,0.10326109301535066,"light_blue, orange, stations",540,540
+1,1,1,0,1,0,1,1,1,0,4,50.0,0.10326037449261265,"brown, light_blue, pink, red, green, indigo, stations",541,541
+0,1,0,1,0,0,1,1,0,0,4,50.0,0.10325156832316448,"light_blue, orange, green, indigo",542,542
+0,0,0,0,0,0,1,0,0,1,4,50.0,0.10325126597782583,"green, utilities",543,543
+0,0,1,0,0,0,1,0,1,0,4,50.0,0.1032357789626515,"pink, green, stations",544,544
+0,0,0,0,0,1,1,0,0,0,4,50.0,0.1032312141735076,"yellow, green",545,545
+0,0,1,0,1,1,1,1,0,0,4,50.0,0.1032280372979237,"pink, red, yellow, green, indigo",546,546
+1,1,1,0,0,1,1,1,1,0,4,50.0,0.10321855774836922,"brown, light_blue, pink, yellow, green, indigo, stations",547,547
+0,0,1,0,0,1,0,0,1,0,4,50.0,0.10318398357438555,"pink, yellow, stations",548,548
+0,0,0,0,1,0,1,0,1,0,4,50.0,0.10314127248826888,"red, green, stations",549,549
+1,0,0,0,0,0,1,0,1,1,4,50.0,0.10312726085233007,"brown, green, stations, utilities",550,550
+0,1,1,1,0,1,0,1,0,1,4,50.0,0.10311317129193971,"light_blue, pink, orange, yellow, indigo, utilities",551,551
+0,1,0,1,1,0,1,0,1,0,4,50.0,0.10309434371097859,"light_blue, orange, red, green, stations",552,552
+1,1,1,0,0,0,1,0,1,0,4,50.0,0.10309368256839083,"brown, light_blue, pink, green, stations",553,553
+0,0,0,0,0,1,0,0,0,1,4,50.0,0.10302242243597566,"yellow, utilities",554,554
+0,1,0,1,0,1,0,0,0,0,4,50.0,0.10298748453582249,"light_blue, orange, yellow",555,555
+0,0,0,0,0,0,1,0,0,0,4,50.0,0.10297391632133401,green,556,556
+0,0,0,1,1,0,0,0,1,0,4,50.0,0.10296631511722673,"orange, red, stations",557,557
+0,0,1,0,1,1,0,0,1,0,4,50.0,0.10296397351440253,"pink, red, yellow, stations",558,558
+0,1,0,1,0,0,1,0,0,0,4,50.0,0.10291246311563304,"light_blue, orange, green",559,559
+0,1,0,1,1,1,0,0,1,1,4,50.0,0.10289058037678633,"light_blue, orange, red, yellow, stations, utilities",560,560
+0,0,1,1,0,0,0,0,1,0,4,50.0,0.10288187282053644,"pink, orange, stations",561,561
+0,0,0,0,1,0,1,0,0,0,4,50.0,0.10288135977222843,"red, green",562,562
+0,0,1,0,1,1,0,0,0,0,4,50.0,0.10287948124911557,"pink, red, yellow",563,563
+0,0,0,0,0,0,0,0,1,1,4,50.0,0.10285874589656259,"stations, utilities",564,564
+0,0,0,0,0,1,1,0,1,0,4,50.0,0.10285067697625197,"yellow, green, stations",565,565
+0,0,0,0,1,1,0,0,0,1,4,50.0,0.10284694333203918,"red, yellow, utilities",566,566
+0,0,0,0,1,1,0,1,1,1,4,50.0,0.10280295856832704,"red, yellow, indigo, stations, utilities",567,567
+0,1,1,0,0,1,1,0,0,0,4,50.0,0.1027881212774459,"light_blue, pink, yellow, green",568,568
+1,1,1,0,0,1,0,1,0,1,4,50.0,0.1027679398376293,"brown, light_blue, pink, yellow, indigo, utilities",569,569
+0,0,1,0,1,0,1,0,0,0,4,50.0,0.10274801998548481,"pink, red, green",570,570
+0,0,1,0,1,0,0,0,1,0,4,50.0,0.10274430661061762,"pink, red, stations",571,571
+0,0,0,0,1,1,1,0,0,0,4,50.0,0.10272386602860677,"red, yellow, green",572,572
+0,1,0,1,0,0,1,0,1,0,4,50.0,0.10270737220549982,"light_blue, orange, green, stations",573,573
+1,1,0,0,0,0,1,0,1,0,4,50.0,0.1026880246663284,"brown, light_blue, green, stations",574,574
+0,0,0,1,1,1,1,0,1,0,4,50.0,0.1026754313249207,"orange, red, yellow, green, stations",575,575
+0,0,1,0,0,1,0,0,0,0,4,50.0,0.10266233202591579,"pink, yellow",576,576
+0,0,0,0,1,1,1,0,1,0,4,50.0,0.1026214028159836,"red, yellow, green, stations",577,577
+0,0,0,1,1,1,1,0,0,0,4,50.0,0.10260508644109592,"orange, red, yellow, green",578,578
+0,0,1,0,0,1,0,0,0,1,4,50.0,0.10259181189416584,"pink, yellow, utilities",579,579
+0,0,0,0,1,0,0,0,1,1,4,50.0,0.1025558173712919,"red, stations, utilities",580,580
+0,0,0,1,1,0,1,0,1,0,4,50.0,0.10254308123955794,"orange, red, green, stations",581,581
+0,0,0,1,0,1,1,0,0,0,4,50.0,0.10249333493837753,"orange, yellow, green",582,582
+0,0,1,0,1,1,1,0,1,0,4,50.0,0.10245126617510565,"pink, red, yellow, green, stations",583,583
+0,0,1,0,1,0,0,0,0,1,4,50.0,0.1024495952911036,"pink, red, utilities",584,584
+0,0,0,1,0,0,0,0,1,1,4,50.0,0.10243557209423981,"orange, stations, utilities",585,585
+0,0,0,1,1,1,0,0,1,0,4,50.0,0.1024166763605336,"orange, red, yellow, stations",586,586
+0,1,1,1,1,1,1,1,0,1,4,50.0,0.10235675005491796,"light_blue, pink, orange, red, yellow, green, indigo, utilities",587,587
+0,0,0,1,0,0,1,0,0,1,4,50.0,0.10235287937331691,"orange, green, utilities",588,588
+0,1,0,1,1,1,1,1,1,0,4,50.0,0.10234623147300737,"light_blue, orange, red, yellow, green, indigo, stations",589,589
+0,0,0,0,1,0,1,0,0,1,4,50.0,0.10232221116465938,"red, green, utilities",590,590
+0,0,0,0,0,1,0,0,1,1,4,50.0,0.10229456993259478,"yellow, stations, utilities",591,591
+0,0,0,1,0,1,1,0,1,0,4,50.0,0.10227058023633054,"orange, yellow, green, stations",592,592
+0,0,1,0,1,1,0,1,1,0,4,50.0,0.10219631949228705,"pink, red, yellow, indigo, stations",593,593
+0,0,0,1,1,1,0,0,0,0,4,50.0,0.10216522011504256,"orange, red, yellow",594,594
+0,0,0,1,1,1,1,1,0,1,4,50.0,0.10211233641010856,"orange, red, yellow, green, indigo, utilities",595,595
+0,0,1,0,1,1,1,0,0,0,4,50.0,0.10209756577475515,"pink, red, yellow, green",596,596
+0,0,1,0,1,1,0,1,1,1,4,50.0,0.10202865476264551,"pink, red, yellow, indigo, stations, utilities",597,597
+0,0,1,0,1,1,0,1,0,1,4,50.0,0.10202598355881212,"pink, red, yellow, indigo, utilities",598,598
+0,0,1,0,1,0,0,0,1,1,4,50.0,0.10198656009690088,"pink, red, stations, utilities",599,599
+0,1,0,1,0,1,0,1,1,1,4,50.0,0.10193031415384587,"light_blue, orange, yellow, indigo, stations, utilities",600,600
+0,1,0,1,1,1,0,1,1,1,4,50.0,0.1018831717198001,"light_blue, orange, red, yellow, indigo, stations, utilities",601,601
+0,0,1,0,0,1,1,0,0,1,4,50.0,0.10187560771570292,"pink, yellow, green, utilities",602,602
+0,0,1,0,1,1,0,0,1,1,4,50.0,0.10186511934806608,"pink, red, yellow, stations, utilities",603,603
+0,0,0,0,0,1,1,0,1,1,4,50.0,0.10181558273736209,"yellow, green, stations, utilities",604,604
+0,0,1,0,1,1,0,0,0,1,4,50.0,0.1018043428363592,"pink, red, yellow, utilities",605,605
+0,1,1,1,1,1,1,1,1,1,4,50.0,0.10178855118394084,"light_blue, pink, orange, red, yellow, green, indigo, stations, utilities",606,606
+0,0,0,1,1,1,1,1,1,1,4,50.0,0.10170092848467811,"orange, red, yellow, green, indigo, stations, utilities",607,607
+0,0,1,0,0,1,1,0,1,0,4,50.0,0.10165457309562605,"pink, yellow, green, stations",608,608
+0,0,0,1,1,1,1,0,0,1,4,50.0,0.10163559741756863,"orange, red, yellow, green, utilities",609,609
+0,0,0,0,1,1,0,0,1,1,4,50.0,0.1016293538987592,"red, yellow, stations, utilities",610,610
+0,0,0,1,1,0,0,0,0,1,4,50.0,0.10157879592716515,"orange, red, utilities",611,611
+0,0,1,0,1,1,1,0,0,1,4,50.0,0.10157559636789153,"pink, red, yellow, green, utilities",612,612
+0,0,1,0,0,1,0,0,1,1,4,50.0,0.10154110455610917,"pink, yellow, stations, utilities",613,613
+0,0,0,1,1,0,1,0,0,1,4,50.0,0.10152350847782535,"orange, red, green, utilities",614,614
+0,0,0,1,0,1,0,0,1,0,4,50.0,0.10149872345382796,"orange, yellow, stations",615,615
+0,0,0,0,1,1,1,0,1,1,4,50.0,0.10144117533791626,"red, yellow, green, stations, utilities",616,616
+0,0,0,1,1,1,0,0,1,1,4,50.0,0.10142066185348866,"orange, red, yellow, stations, utilities",617,617
+0,0,1,0,1,0,1,0,1,0,4,50.0,0.10141620202065951,"pink, red, green, stations",618,618
+0,0,1,1,0,0,0,0,1,1,4,50.0,0.10136049533902843,"pink, orange, stations, utilities",619,619
+0,0,1,0,0,0,0,1,0,0,4,50.0,0.10123955208064664,"pink, indigo",620,620
+0,0,0,0,1,0,1,0,1,1,4,50.0,0.10117627626680384,"red, green, stations, utilities",621,621
+0,0,0,1,0,1,0,0,0,1,4,50.0,0.10113573335345574,"orange, yellow, utilities",622,622
+0,0,0,1,0,1,0,0,1,1,4,50.0,0.10113047684348404,"orange, yellow, stations, utilities",623,623
+0,0,1,0,0,0,1,0,1,1,4,50.0,0.10112651373724298,"pink, green, stations, utilities",624,624
+0,0,0,0,0,0,0,1,0,1,4,50.0,0.10112288905768427,"indigo, utilities",625,625
+0,0,1,0,1,1,0,1,0,0,4,50.0,0.10106666633896619,"pink, red, yellow, indigo",626,626
+0,0,0,1,0,0,1,0,1,1,4,50.0,0.10105829206754349,"orange, green, stations, utilities",627,627
+0,0,1,0,1,0,1,0,0,1,4,50.0,0.1009456888256085,"pink, red, green, utilities",628,628
+0,0,1,0,0,0,0,1,1,0,4,50.0,0.10091920188098677,"pink, indigo, stations",629,629
+0,0,0,0,0,1,1,0,0,1,4,50.0,0.10085057866649956,"yellow, green, utilities",630,630
+0,0,0,0,0,0,0,1,0,0,4,50.0,0.10084159203136323,indigo,631,631
+0,0,0,0,0,0,0,1,1,1,4,50.0,0.1008064816978372,"indigo, stations, utilities",632,632
+0,0,0,1,1,0,0,0,1,1,4,50.0,0.1007670813848776,"orange, red, stations, utilities",633,633
+0,1,1,1,1,0,0,0,1,1,4,50.0,0.100745499658255,"light_blue, pink, orange, red, stations, utilities",634,634
+0,0,0,0,0,0,1,1,0,0,4,50.0,0.10071371550830592,"green, indigo",635,635
+0,0,0,1,0,0,0,1,0,0,4,50.0,0.10062643263897693,"orange, indigo",636,636
+0,0,0,0,0,1,0,1,0,0,4,50.0,0.10061385227713326,"yellow, indigo",637,637
+0,0,0,1,0,1,1,0,0,1,4,50.0,0.10058569918670508,"orange, yellow, green, utilities",638,638
+0,1,1,1,1,0,0,1,0,1,4,50.0,0.1005714248401705,"light_blue, pink, orange, red, indigo, utilities",639,639
+0,0,0,1,0,1,1,0,1,1,4,50.0,0.1004767910377132,"orange, yellow, green, stations, utilities",640,640
+1,0,1,0,1,1,1,1,1,1,4,50.0,0.10046316115763039,"brown, pink, red, yellow, green, indigo, stations, utilities",641,641
+0,0,0,0,0,0,0,1,1,0,4,50.0,0.10037082219866315,"indigo, stations",642,642
+0,0,0,0,1,0,0,1,0,0,4,50.0,0.10023891128558585,"red, indigo",643,643
+0,0,0,0,1,0,1,1,0,0,4,50.0,0.10021738548785901,"red, green, indigo",644,644
+0,0,1,1,0,0,0,1,0,0,4,50.0,0.100200471319535,"pink, orange, indigo",645,645
+0,0,1,0,0,0,1,1,0,0,4,50.0,0.10018311275980532,"pink, green, indigo",646,646
+0,0,1,0,0,0,0,1,0,1,4,50.0,0.10017720199742071,"pink, indigo, utilities",647,647
+0,0,0,1,1,0,1,0,1,1,4,50.0,0.10016176412643758,"orange, red, green, stations, utilities",648,648
+0,0,0,0,0,1,0,1,0,1,4,50.0,0.10010265029050251,"yellow, indigo, utilities",649,649
+0,0,0,0,0,0,1,1,0,1,4,50.0,0.10010068270072547,"green, indigo, utilities",650,650
+0,0,1,0,1,0,0,1,0,0,4,50.0,0.09996953870164604,"pink, red, indigo",651,651
+0,1,1,1,1,0,1,1,0,1,4,50.0,0.09995921100342707,"light_blue, pink, orange, red, green, indigo, utilities",652,652
+0,0,1,1,0,1,0,0,0,0,4,50.0,0.09991032436822687,"pink, orange, yellow",653,653
+0,0,1,0,0,1,1,0,1,1,4,50.0,0.09988628217751148,"pink, yellow, green, stations, utilities",654,654
+0,0,1,0,0,1,0,1,0,0,4,50.0,0.09979856466302803,"pink, yellow, indigo",655,655
+0,0,0,1,0,1,0,1,1,0,4,50.0,0.09978691295404771,"orange, yellow, indigo, stations",656,656
+0,1,1,1,0,0,1,0,0,0,4,50.0,0.09976122097259225,"light_blue, pink, orange, green",657,657
+0,0,0,0,0,1,1,1,0,0,4,50.0,0.09973206194114709,"yellow, green, indigo",658,658
+0,0,0,0,1,0,1,1,0,1,4,50.0,0.09972519856083473,"red, green, indigo, utilities",659,659
+0,0,0,1,0,0,1,1,0,0,4,50.0,0.09965680349597197,"orange, green, indigo",660,660
+0,0,0,0,0,0,1,1,1,0,4,50.0,0.09963099039178525,"green, indigo, stations",661,661
+0,0,1,0,1,0,1,0,1,1,4,50.0,0.0996046674596074,"pink, red, green, stations, utilities",662,662
+0,0,0,1,1,0,1,1,1,0,4,50.0,0.09960414396304296,"orange, red, green, indigo, stations",663,663
+0,0,0,1,0,0,0,1,0,1,4,50.0,0.09956934660034271,"orange, indigo, utilities",664,664
+0,1,1,0,1,1,0,1,1,1,4,50.0,0.09956753215150564,"light_blue, pink, red, yellow, indigo, stations, utilities",665,665
+0,0,0,1,0,0,0,1,1,0,4,50.0,0.09949647262557715,"orange, indigo, stations",666,666
+0,0,1,0,0,0,0,1,1,1,4,50.0,0.09948980988904725,"pink, indigo, stations, utilities",667,667
+0,1,1,0,0,1,0,1,1,1,4,50.0,0.09943026671201083,"light_blue, pink, yellow, indigo, stations, utilities",668,668
+0,1,1,0,0,1,1,1,0,0,4,50.0,0.09938367966868498,"light_blue, pink, yellow, green, indigo",669,669
+0,0,0,0,1,0,0,1,0,1,4,50.0,0.09937042579912045,"red, indigo, utilities",670,670
+0,0,0,1,1,0,0,1,0,0,4,50.0,0.09935966850436316,"orange, red, indigo",671,671
+0,0,0,1,1,1,1,0,1,1,4,50.0,0.09935360353439573,"orange, red, yellow, green, stations, utilities",672,672
+0,1,1,0,1,1,1,1,1,0,4,50.0,0.09933616882479517,"light_blue, pink, red, yellow, green, indigo, stations",673,673
+0,1,1,0,1,1,1,1,1,1,4,50.0,0.09928947627776559,"light_blue, pink, red, yellow, green, indigo, stations, utilities",674,674
+1,0,1,1,0,1,1,1,1,1,4,50.0,0.0992699027216141,"brown, pink, orange, yellow, green, indigo, stations, utilities",675,675
+0,0,1,0,1,1,1,0,1,1,4,50.0,0.0992443252854305,"pink, red, yellow, green, stations, utilities",676,676
+0,1,1,1,0,0,1,1,1,0,4,50.0,0.09923070630956272,"light_blue, pink, orange, green, indigo, stations",677,677
+0,0,1,0,1,1,1,1,1,1,4,50.0,0.09918613163271178,"pink, red, yellow, green, indigo, stations, utilities",678,678
+0,0,0,0,0,1,0,1,1,0,4,50.0,0.09917631835624605,"yellow, indigo, stations",679,679
+0,0,0,0,1,0,0,1,1,0,4,50.0,0.09912833896446901,"red, indigo, stations",680,680
+0,0,0,1,1,0,0,1,1,0,4,50.0,0.0990937410968279,"orange, red, indigo, stations",681,681
+0,1,1,0,1,0,1,1,0,1,4,50.0,0.09906097922879092,"light_blue, pink, red, green, indigo, utilities",682,682
+0,0,1,0,0,1,0,1,1,0,4,50.0,0.09897910315125232,"pink, yellow, indigo, stations",683,683
+0,0,1,0,1,0,0,1,1,0,4,50.0,0.09892333700158384,"pink, red, indigo, stations",684,684
+0,0,0,0,0,1,1,1,0,1,4,50.0,0.09889008839587557,"yellow, green, indigo, utilities",685,685
+0,1,1,0,1,1,1,1,0,1,4,50.0,0.09886383899647534,"light_blue, pink, red, yellow, green, indigo, utilities",686,686
+0,0,1,0,0,0,1,1,0,1,4,50.0,0.09885121853311549,"pink, green, indigo, utilities",687,687
+0,0,0,0,0,0,1,1,1,1,4,50.0,0.09885084022777206,"green, indigo, stations, utilities",688,688
+0,0,1,1,1,1,1,0,1,1,4,50.0,0.0987681293305844,"pink, orange, red, yellow, green, stations, utilities",689,689
+0,0,1,1,0,0,0,1,0,1,4,50.0,0.09874023801532718,"pink, orange, indigo, utilities",690,690
+0,1,1,0,0,1,1,1,1,1,4,50.0,0.09873255669858932,"light_blue, pink, yellow, green, indigo, stations, utilities",691,691
+0,0,0,1,0,1,1,1,0,0,4,50.0,0.09868544115548265,"orange, yellow, green, indigo",692,692
+0,1,1,1,1,1,0,1,1,0,4,50.0,0.09868163406555365,"light_blue, pink, orange, red, yellow, indigo, stations",693,693
+0,0,0,1,0,0,0,1,1,1,4,50.0,0.09867197612484657,"orange, indigo, stations, utilities",694,694
+0,1,1,1,1,0,1,0,1,1,4,50.0,0.09865832766278075,"light_blue, pink, orange, red, green, stations, utilities",695,695
+0,0,0,0,1,0,1,1,1,1,4,50.0,0.0986180465210343,"red, green, indigo, stations, utilities",696,696
+0,0,0,0,1,1,1,1,1,1,4,50.0,0.09861598241504735,"red, yellow, green, indigo, stations, utilities",697,697
+0,1,1,1,0,1,1,1,1,1,4,50.0,0.09861572338458154,"light_blue, pink, orange, yellow, green, indigo, stations, utilities",698,698
+0,0,0,1,0,1,0,1,0,0,4,50.0,0.09860654122898213,"orange, yellow, indigo",699,699
+1,0,0,1,1,1,1,1,0,1,4,50.0,0.09858946674175809,"brown, orange, red, yellow, green, indigo, utilities",700,700
+0,0,1,0,0,1,1,1,0,1,4,50.0,0.09858352503962246,"pink, yellow, green, indigo, utilities",701,701
+0,0,1,0,0,1,1,1,0,0,4,50.0,0.09856277574009417,"pink, yellow, green, indigo",702,702
+0,0,1,1,0,0,0,1,1,0,4,50.0,0.09854396677061308,"pink, orange, indigo, stations",703,703
+0,0,1,1,0,0,0,1,1,1,4,50.0,0.09853099166041257,"pink, orange, indigo, stations, utilities",704,704
+0,0,0,0,1,0,1,1,1,0,4,50.0,0.09852182218046343,"red, green, indigo, stations",705,705
+0,0,0,1,0,0,1,1,0,1,4,50.0,0.09852043506495997,"orange, green, indigo, utilities",706,706
+0,0,1,0,0,0,1,1,1,0,4,50.0,0.09851879170707209,"pink, green, indigo, stations",707,707
+0,0,0,0,0,1,1,1,1,0,4,50.0,0.09841876015107494,"yellow, green, indigo, stations",708,708
+1,0,1,1,0,1,0,1,1,1,4,50.0,0.09837101467174023,"brown, pink, orange, yellow, indigo, stations, utilities",709,709
+0,0,1,0,1,0,0,1,0,1,4,50.0,0.09832691695216181,"pink, red, indigo, utilities",710,710
+0,0,1,0,0,1,0,1,0,1,4,50.0,0.0983163545643717,"pink, yellow, indigo, utilities",711,711
+0,1,1,0,1,1,0,1,0,1,4,50.0,0.09828923340992293,"light_blue, pink, red, yellow, indigo, utilities",712,712
+0,1,1,0,1,1,1,0,1,1,4,50.0,0.09824834000427915,"light_blue, pink, red, yellow, green, stations, utilities",713,713
+0,0,0,1,1,0,1,1,0,0,4,50.0,0.09819775700998153,"orange, red, green, indigo",714,714
+0,0,0,1,1,0,0,1,0,1,4,50.0,0.09812240307617934,"orange, red, indigo, utilities",715,715
+0,0,1,0,0,0,1,1,1,1,4,50.0,0.09812056047934653,"pink, green, indigo, stations, utilities",716,716
+0,0,0,0,1,0,0,1,1,1,4,50.0,0.09811187616440883,"red, indigo, stations, utilities",717,717
+0,0,1,0,1,0,1,1,0,1,4,50.0,0.09804005135998603,"pink, red, green, indigo, utilities",718,718
+0,0,1,0,1,0,1,1,0,0,4,50.0,0.09800140837862037,"pink, red, green, indigo",719,719
+0,0,0,1,0,0,1,1,1,0,4,50.0,0.09799268096099187,"orange, green, indigo, stations",720,720
+0,1,1,1,0,1,0,1,1,1,4,50.0,0.0979821880943997,"light_blue, pink, orange, yellow, indigo, stations, utilities",721,721
+0,1,1,0,1,0,1,1,1,1,4,50.0,0.09790373372898373,"light_blue, pink, red, green, indigo, stations, utilities",722,722
+0,0,0,1,1,0,1,1,0,1,4,50.0,0.09788153934067427,"orange, red, green, indigo, utilities",723,723
+0,0,0,0,0,0,1,0,1,1,4,50.0,0.09786316870784298,"green, stations, utilities",724,724
+1,0,1,1,0,0,1,1,1,1,4,50.0,0.09776111802848679,"brown, pink, orange, green, indigo, stations, utilities",725,725
+1,0,0,1,1,1,0,1,1,1,4,50.0,0.09771836839666444,"brown, orange, red, yellow, indigo, stations, utilities",726,726
+0,0,0,0,0,1,0,1,1,1,4,50.0,0.09765911214384744,"yellow, indigo, stations, utilities",727,727
+0,0,1,0,0,1,1,1,1,0,4,50.0,0.09759294149138124,"pink, yellow, green, indigo, stations",728,728
+0,1,1,0,1,0,1,1,1,0,4,50.0,0.09757641053282821,"light_blue, pink, red, green, indigo, stations",729,729
+0,0,1,0,0,1,1,1,1,1,4,50.0,0.09750054484568052,"pink, yellow, green, indigo, stations, utilities",730,730
+0,0,1,0,0,1,0,1,1,1,4,50.0,0.0974423991845895,"pink, yellow, indigo, stations, utilities",731,731
+0,1,1,1,1,0,1,1,1,1,4,50.0,0.09743714963497425,"light_blue, pink, orange, red, green, indigo, stations, utilities",732,732
+0,0,0,0,0,1,1,1,1,1,4,50.0,0.097350482517642,"yellow, green, indigo, stations, utilities",733,733
+0,1,1,0,0,1,1,0,1,0,4,50.0,0.09733154551936304,"light_blue, pink, yellow, green, stations",734,734
+0,0,1,0,1,0,1,1,1,0,4,50.0,0.09732919569727032,"pink, red, green, indigo, stations",735,735
+0,1,1,0,1,1,0,1,1,0,4,50.0,0.09725824013842549,"light_blue, pink, red, yellow, indigo, stations",736,736
+0,1,1,1,1,0,0,1,1,1,4,50.0,0.09723072354830362,"light_blue, pink, orange, red, indigo, stations, utilities",737,737
+0,0,0,1,0,1,0,1,0,1,4,50.0,0.09719259001982275,"orange, yellow, indigo, utilities",738,738
+0,1,1,0,0,1,0,1,1,0,4,50.0,0.09712607602848115,"light_blue, pink, yellow, indigo, stations",739,739
+1,0,1,1,0,0,1,1,0,1,4,50.0,0.09709650178930176,"brown, pink, orange, green, indigo, utilities",740,740
+0,1,1,0,1,0,1,0,1,1,4,50.0,0.09709053630293044,"light_blue, pink, red, green, stations, utilities",741,741
+0,0,1,0,1,0,0,1,1,1,4,50.0,0.09702721009261726,"pink, red, indigo, stations, utilities",742,742
+1,0,1,0,1,1,0,1,0,1,4,50.0,0.096997278331544,"brown, pink, red, yellow, indigo, utilities",743,743
+0,0,0,1,1,0,1,1,1,1,4,50.0,0.09684786953106955,"orange, red, green, indigo, stations, utilities",744,744
+0,0,0,1,0,1,1,1,1,0,4,50.0,0.09683633947620773,"orange, yellow, green, indigo, stations",745,745
+0,1,1,1,0,0,0,1,1,0,4,50.0,0.0968332209682227,"light_blue, pink, orange, indigo, stations",746,746
+0,0,0,1,0,1,1,1,0,1,4,50.0,0.09676811963988186,"orange, yellow, green, indigo, utilities",747,747
+0,1,1,1,0,0,0,1,0,0,4,50.0,0.09663241933028684,"light_blue, pink, orange, indigo",748,748
+0,1,1,1,1,1,1,0,1,1,4,50.0,0.09660773797226455,"light_blue, pink, orange, red, yellow, green, stations, utilities",749,749
+0,1,1,0,1,0,0,1,0,1,4,50.0,0.09654882846231548,"light_blue, pink, red, indigo, utilities",750,750
+0,1,1,1,0,0,0,1,1,1,4,50.0,0.09645229435140094,"light_blue, pink, orange, indigo, stations, utilities",751,751
+0,1,1,0,0,1,1,1,1,0,4,50.0,0.0964446974279846,"light_blue, pink, yellow, green, indigo, stations",752,752
+1,0,0,1,1,0,1,0,0,0,4,50.0,0.09640650014343026,"brown, orange, red, green",753,753
+0,1,1,1,0,1,1,1,0,1,4,50.0,0.09638001605016117,"light_blue, pink, orange, yellow, green, indigo, utilities",754,754
+1,0,0,1,1,0,1,1,1,1,4,50.0,0.09634429779206219,"brown, orange, red, green, indigo, stations, utilities",755,755
+0,0,0,1,0,0,1,1,1,1,4,50.0,0.0962390203232715,"orange, green, indigo, stations, utilities",756,756
+1,0,1,0,1,1,1,1,0,0,4,50.0,0.09623739216430967,"brown, pink, red, yellow, green, indigo",757,757
+0,1,1,0,1,0,0,1,1,0,4,50.0,0.09622473732547059,"light_blue, pink, red, indigo, stations",758,758
+0,1,1,1,0,0,1,1,0,1,4,50.0,0.09622005667072714,"light_blue, pink, orange, green, indigo, utilities",759,759
+0,1,1,1,1,1,1,1,1,0,4,50.0,0.09619323120130899,"light_blue, pink, orange, red, yellow, green, indigo, stations",760,760
+0,1,1,1,0,0,1,1,1,1,4,50.0,0.09618896186321471,"light_blue, pink, orange, green, indigo, stations, utilities",761,761
+0,1,1,1,0,0,0,1,0,1,4,50.0,0.0961260950063382,"light_blue, pink, orange, indigo, utilities",762,762
+0,1,1,1,1,0,1,1,1,0,4,50.0,0.09610141659279928,"light_blue, pink, orange, red, green, indigo, stations",763,763
+0,1,1,0,0,1,1,1,0,1,4,50.0,0.0960569730457882,"light_blue, pink, yellow, green, indigo, utilities",764,764
+0,1,1,0,1,1,1,1,0,0,4,50.0,0.09604263437136536,"light_blue, pink, red, yellow, green, indigo",765,765
+0,0,0,1,0,1,0,1,1,1,4,50.0,0.09594271014825786,"orange, yellow, indigo, stations, utilities",766,766
+0,1,1,0,1,0,0,1,1,1,4,50.0,0.09591642034803158,"light_blue, pink, red, indigo, stations, utilities",767,767
+0,1,1,0,1,0,1,1,0,0,4,50.0,0.09589331502869958,"light_blue, pink, red, green, indigo",768,768
+1,0,1,0,1,0,1,1,0,1,4,50.0,0.0958854306113883,"brown, pink, red, green, indigo, utilities",769,769
+0,0,0,1,1,0,0,1,1,1,4,50.0,0.09571501612753439,"orange, red, indigo, stations, utilities",770,770
+0,1,1,0,0,1,0,1,0,1,4,50.0,0.09566927854169338,"light_blue, pink, yellow, indigo, utilities",771,771
+0,0,1,0,1,0,1,1,1,1,4,50.0,0.0955691884986469,"pink, red, green, indigo, stations, utilities",772,772
+0,1,1,0,1,1,1,0,0,1,4,50.0,0.09546497542488384,"light_blue, pink, red, yellow, green, utilities",773,773
+1,0,0,1,1,0,1,1,1,0,4,50.0,0.09545359649122145,"brown, orange, red, green, indigo, stations",774,774
+0,1,1,0,1,0,0,1,0,0,4,50.0,0.09541222948576507,"light_blue, pink, red, indigo",775,775
+0,1,1,0,1,0,1,0,1,0,4,50.0,0.09538507873403382,"light_blue, pink, red, green, stations",776,776
+0,1,1,0,0,1,1,0,1,1,4,50.0,0.09534672080476252,"light_blue, pink, yellow, green, stations, utilities",777,777
+0,1,1,0,1,1,0,1,0,0,4,50.0,0.09530992757693635,"light_blue, pink, red, yellow, indigo",778,778
+0,1,1,1,0,0,0,0,0,0,4,50.0,0.09519248745004452,"light_blue, pink, orange",779,779
+0,1,1,1,0,0,1,0,1,0,4,50.0,0.09517437272326554,"light_blue, pink, orange, green, stations",780,780
+1,0,1,1,1,0,1,1,1,1,4,50.0,0.09515140205977704,"brown, pink, orange, red, green, indigo, stations, utilities",781,781
+0,0,0,1,0,1,1,1,1,1,4,50.0,0.09511412660878979,"orange, yellow, green, indigo, stations, utilities",782,782
+0,1,1,1,0,0,0,0,0,1,4,50.0,0.09510163896756027,"light_blue, pink, orange, utilities",783,783
+0,1,1,1,1,0,0,0,1,0,4,50.0,0.09508552242178395,"light_blue, pink, orange, red, stations",784,784
+1,0,1,0,1,1,0,1,0,0,4,50.0,0.09502081598018357,"brown, pink, red, yellow, indigo",785,785
+1,0,1,0,0,0,0,0,0,0,4,50.0,0.09497593646973265,"brown, pink",786,786
+0,1,1,0,1,0,0,0,0,0,4,50.0,0.09491288313552013,"light_blue, pink, red",787,787
+0,1,1,1,0,0,1,1,0,0,4,50.0,0.09489059454095264,"light_blue, pink, orange, green, indigo",788,788
+1,0,1,0,0,1,1,1,0,1,4,50.0,0.09488809558119111,"brown, pink, yellow, green, indigo, utilities",789,789
+0,0,1,1,1,1,1,0,0,0,4,50.0,0.09484259604135101,"pink, orange, red, yellow, green",790,790
+0,1,1,0,0,1,1,0,0,1,4,50.0,0.09482817798083071,"light_blue, pink, yellow, green, utilities",791,791
+0,0,1,1,1,1,0,0,1,1,4,50.0,0.09476344055590857,"pink, orange, red, yellow, stations, utilities",792,792
+0,1,1,1,1,1,0,1,0,0,4,50.0,0.0947590851833517,"light_blue, pink, orange, red, yellow, indigo",793,793
+1,0,1,1,0,1,1,1,0,1,4,50.0,0.09474924158322974,"brown, pink, orange, yellow, green, indigo, utilities",794,794
+1,0,1,0,1,0,1,0,0,0,4,50.0,0.09472365724762853,"brown, pink, red, green",795,795
+0,1,1,0,1,0,1,0,0,1,4,50.0,0.09470999008017271,"light_blue, pink, red, green, utilities",796,796
+1,0,0,1,1,0,0,1,1,1,4,50.0,0.09465464269965865,"brown, orange, red, indigo, stations, utilities",797,797
+1,0,0,1,1,0,0,1,1,0,4,50.0,0.09461778491640478,"brown, orange, red, indigo, stations",798,798
+1,0,1,0,1,1,1,1,0,1,4,50.0,0.09460861966278075,"brown, pink, red, yellow, green, indigo, utilities",799,799
+0,0,1,1,1,1,0,1,0,1,4,50.0,0.09458453168959723,"pink, orange, red, yellow, indigo, utilities",800,800
+1,0,1,1,1,0,0,1,1,0,4,50.0,0.09457454794670521,"brown, pink, orange, red, indigo, stations",801,801
+0,1,1,0,1,1,0,0,1,1,4,50.0,0.09457099366016912,"light_blue, pink, red, yellow, stations, utilities",802,802
+0,1,1,0,1,0,0,0,1,1,4,50.0,0.09455127547404875,"light_blue, pink, red, stations, utilities",803,803
+0,0,1,1,1,1,1,0,1,0,4,50.0,0.09442604647070461,"pink, orange, red, yellow, green, stations",804,804
+0,0,1,1,0,0,1,0,1,0,4,50.0,0.09437651781558297,"pink, orange, green, stations",805,805
+1,0,1,1,0,1,0,1,0,0,4,50.0,0.09435671127676185,"brown, pink, orange, yellow, indigo",806,806
+1,0,1,1,0,0,1,0,0,1,4,50.0,0.09434808475050657,"brown, pink, orange, green, utilities",807,807
+0,1,1,1,0,1,1,1,1,0,4,50.0,0.09433796461510509,"light_blue, pink, orange, yellow, green, indigo, stations",808,808
+0,0,1,1,1,1,0,1,0,0,4,50.0,0.0943286630567511,"pink, orange, red, yellow, indigo",809,809
+0,1,1,0,1,0,1,0,0,0,4,50.0,0.09417229452189259,"light_blue, pink, red, green",810,810
+0,0,1,1,1,1,0,1,1,0,4,50.0,0.0941677267007573,"pink, orange, red, yellow, indigo, stations",811,811
+0,1,1,0,1,1,1,0,1,0,4,50.0,0.09416459145495834,"light_blue, pink, red, yellow, green, stations",812,812
+1,0,1,0,1,0,1,1,1,1,4,50.0,0.09409105466055757,"brown, pink, red, green, indigo, stations, utilities",813,813
+0,1,1,1,1,1,1,1,0,0,4,50.0,0.09408202267069612,"light_blue, pink, orange, red, yellow, green, indigo",814,814
+0,1,1,0,1,1,0,0,1,0,4,50.0,0.0940809931945791,"light_blue, pink, red, yellow, stations",815,815
+0,1,1,1,0,0,0,0,1,0,4,50.0,0.0940318448479031,"light_blue, pink, orange, stations",816,816
+0,1,1,1,1,0,1,0,0,0,4,50.0,0.09400041879547258,"light_blue, pink, orange, red, green",817,817
+0,1,1,1,0,1,1,0,0,0,4,50.0,0.09397790361596924,"light_blue, pink, orange, yellow, green",818,818
+0,1,1,1,0,1,0,1,1,0,4,50.0,0.09397447911902967,"light_blue, pink, orange, yellow, indigo, stations",819,819
+0,1,1,1,0,1,0,0,1,1,4,50.0,0.09392284975141924,"light_blue, pink, orange, yellow, stations, utilities",820,820
+0,1,1,1,0,1,1,0,1,1,4,50.0,0.09391885146832403,"light_blue, pink, orange, yellow, green, stations, utilities",821,821
+0,1,1,1,1,0,1,0,0,1,4,50.0,0.09385421850643197,"light_blue, pink, orange, red, green, utilities",822,822
+1,0,1,0,1,1,0,0,0,1,4,50.0,0.09384103122621341,"brown, pink, red, yellow, utilities",823,823
+0,1,1,1,0,0,1,0,1,1,4,50.0,0.09381186825814554,"light_blue, pink, orange, green, stations, utilities",824,824
+0,1,1,1,0,1,0,0,1,0,4,50.0,0.09380764997232315,"light_blue, pink, orange, yellow, stations",825,825
+0,1,1,1,1,0,1,1,0,0,4,50.0,0.0937428098937669,"light_blue, pink, orange, red, green, indigo",826,826
+0,1,1,1,0,1,1,0,1,0,4,50.0,0.09373026969110995,"light_blue, pink, orange, yellow, green, stations",827,827
+0,1,1,0,1,1,0,0,0,1,4,50.0,0.09372312769453246,"light_blue, pink, red, yellow, utilities",828,828
+0,1,1,1,0,0,0,0,1,1,4,50.0,0.09369360603675327,"light_blue, pink, orange, stations, utilities",829,829
+0,1,1,0,1,0,0,0,0,1,4,50.0,0.09364718553185515,"light_blue, pink, red, utilities",830,830
+1,0,1,1,0,1,0,1,0,1,4,50.0,0.09363003435896193,"brown, pink, orange, yellow, indigo, utilities",831,831
+1,0,1,0,1,0,0,1,1,1,4,50.0,0.093598580915861,"brown, pink, red, indigo, stations, utilities",832,832
+0,1,1,1,1,1,1,0,1,0,4,50.0,0.09356860408003165,"light_blue, pink, orange, red, yellow, green, stations",833,833
+0,1,1,1,0,1,0,0,0,0,4,50.0,0.09355681737535529,"light_blue, pink, orange, yellow",834,834
+1,0,0,1,1,1,0,1,0,1,4,50.0,0.09353541647438755,"brown, orange, red, yellow, indigo, utilities",835,835
+0,1,1,1,0,0,1,0,0,1,4,50.0,0.09351979244937833,"light_blue, pink, orange, green, utilities",836,836
+0,1,1,1,1,0,0,1,0,0,4,50.0,0.09351065834899185,"light_blue, pink, orange, red, indigo",837,837
+0,1,1,0,1,1,0,0,0,0,4,50.0,0.09348947754807603,"light_blue, pink, red, yellow",838,838
+0,1,1,0,1,1,1,0,0,0,4,50.0,0.09345389933377171,"light_blue, pink, red, yellow, green",839,839
+1,0,0,1,1,0,0,0,1,0,4,50.0,0.09341817257853821,"brown, orange, red, stations",840,840
+0,1,1,1,1,1,0,0,1,1,4,50.0,0.09341130263416211,"light_blue, pink, orange, red, yellow, stations, utilities",841,841
+0,1,1,1,0,1,0,1,0,0,4,50.0,0.09339798085484324,"light_blue, pink, orange, yellow, indigo",842,842
+0,1,1,1,0,1,1,1,0,0,4,50.0,0.09339543685127097,"light_blue, pink, orange, yellow, green, indigo",843,843
+1,0,1,0,0,0,1,1,1,1,4,50.0,0.09339018227602551,"brown, pink, green, indigo, stations, utilities",844,844
+0,1,1,1,1,0,0,0,0,0,4,50.0,0.09336970461040861,"light_blue, pink, orange, red",845,845
+1,0,1,0,0,1,0,1,0,1,4,50.0,0.09336800612451142,"brown, pink, yellow, indigo, utilities",846,846
+0,0,1,1,1,1,1,1,0,0,4,50.0,0.09333947737551909,"pink, orange, red, yellow, green, indigo",847,847
+1,0,1,0,0,0,1,0,0,1,4,50.0,0.09332456100111838,"brown, pink, green, utilities",848,848
+0,1,1,1,1,1,0,0,0,1,4,50.0,0.09329501943685367,"light_blue, pink, orange, red, yellow, utilities",849,849
+0,1,1,0,1,0,0,0,1,0,4,50.0,0.09325884544031138,"light_blue, pink, red, stations",850,850
+1,0,1,1,0,1,0,1,1,0,4,50.0,0.09322477968006174,"brown, pink, orange, yellow, indigo, stations",851,851
+0,1,1,1,1,0,1,0,1,0,4,50.0,0.09315955882186326,"light_blue, pink, orange, red, green, stations",852,852
+0,1,1,1,1,1,1,0,0,0,4,50.0,0.09308332590292856,"light_blue, pink, orange, red, yellow, green",853,853
+0,0,1,1,1,1,1,1,0,1,4,50.0,0.09306113810006636,"pink, orange, red, yellow, green, indigo, utilities",854,854
+1,0,1,0,1,0,1,0,0,1,4,50.0,0.09304701542523627,"brown, pink, red, green, utilities",855,855
+1,0,1,1,1,1,1,1,0,1,4,50.0,0.09299837183063143,"brown, pink, orange, red, yellow, green, indigo, utilities",856,856
+0,1,1,1,1,0,0,1,1,0,4,50.0,0.09295231508259331,"light_blue, pink, orange, red, indigo, stations",857,857
+0,1,1,1,0,1,1,0,0,1,4,50.0,0.09292108848193917,"light_blue, pink, orange, yellow, green, utilities",858,858
+1,0,0,1,1,1,1,1,1,0,4,50.0,0.09280074819141629,"brown, orange, red, yellow, green, indigo, stations",859,859
+0,1,1,1,1,1,0,0,0,0,4,50.0,0.09274062489371136,"light_blue, pink, orange, red, yellow",860,860
+1,0,0,1,1,0,1,1,0,1,4,50.0,0.09272147414914735,"brown, orange, red, green, indigo, utilities",861,861
+1,0,1,1,1,0,0,1,1,1,4,50.0,0.09268201765545912,"brown, pink, orange, red, indigo, stations, utilities",862,862
+0,1,1,1,0,1,0,0,0,1,4,50.0,0.09263105900642257,"light_blue, pink, orange, yellow, utilities",863,863
+0,1,1,1,1,1,0,0,1,0,4,50.0,0.09262878742193315,"light_blue, pink, orange, red, yellow, stations",864,864
+1,0,0,1,1,1,1,0,1,1,4,50.0,0.09260961750338899,"brown, orange, red, yellow, green, stations, utilities",865,865
+1,0,1,0,0,0,0,1,1,0,4,50.0,0.09254568403656718,"brown, pink, indigo, stations",866,866
+0,1,1,1,1,1,1,0,0,1,4,50.0,0.09247568843570157,"light_blue, pink, orange, red, yellow, green, utilities",867,867
+1,0,0,1,1,0,0,1,0,1,4,50.0,0.09240765120222538,"brown, orange, red, indigo, utilities",868,868
+1,0,1,0,0,1,1,1,1,1,4,50.0,0.09240134143670187,"brown, pink, yellow, green, indigo, stations, utilities",869,869
+1,0,1,1,1,1,0,1,1,1,4,50.0,0.09239071381372102,"brown, pink, orange, red, yellow, indigo, stations, utilities",870,870
+1,0,1,0,1,1,1,1,1,0,4,50.0,0.09237743795797679,"brown, pink, red, yellow, green, indigo, stations",871,871
+1,0,1,1,1,1,0,0,1,1,4,50.0,0.0923069397690828,"brown, pink, orange, red, yellow, stations, utilities",872,872
+0,0,1,1,1,0,1,0,0,0,4,50.0,0.09219119261695899,"pink, orange, red, green",873,873
+1,0,1,0,1,0,0,0,0,0,4,50.0,0.09218001040057647,"brown, pink, red",874,874
+1,0,1,1,1,1,1,1,1,0,4,50.0,0.09216736682499134,"brown, pink, orange, red, yellow, green, indigo, stations",875,875
+1,0,1,0,0,1,1,0,0,1,4,50.0,0.0921095885489185,"brown, pink, yellow, green, utilities",876,876
+0,0,1,1,1,1,1,1,1,0,4,50.0,0.09206073258657692,"pink, orange, red, yellow, green, indigo, stations",877,877
+1,0,0,1,1,1,0,1,1,0,4,50.0,0.09200650749788034,"brown, orange, red, yellow, indigo, stations",878,878
+1,0,1,1,1,1,1,1,1,1,4,50.0,0.09193016783190948,"brown, pink, orange, red, yellow, green, indigo, stations, utilities",879,879
+1,0,1,1,0,1,1,0,0,1,4,50.0,0.09192675067126471,"brown, pink, orange, yellow, green, utilities",880,880
+1,0,1,1,0,1,1,1,1,0,4,50.0,0.09191413388437304,"brown, pink, orange, yellow, green, indigo, stations",881,881
+1,0,1,1,1,1,0,1,0,1,4,50.0,0.09185795389478471,"brown, pink, orange, red, yellow, indigo, utilities",882,882
+1,0,1,0,0,0,0,1,0,0,4,50.0,0.09181039122805351,"brown, pink, indigo",883,883
+1,0,1,1,1,1,0,1,1,0,4,50.0,0.09173419686616736,"brown, pink, orange, red, yellow, indigo, stations",884,884
+1,0,0,1,1,1,1,1,0,0,4,50.0,0.09173097520679725,"brown, orange, red, yellow, green, indigo",885,885
+1,0,0,1,1,0,0,1,0,0,4,50.0,0.09172956317950524,"brown, orange, red, indigo",886,886
+0,1,1,1,1,0,0,0,0,1,4,50.0,0.09172926919713571,"light_blue, pink, orange, red, utilities",887,887
+1,0,1,1,1,1,1,0,1,1,4,50.0,0.09166551026639416,"brown, pink, orange, red, yellow, green, stations, utilities",888,888
+0,0,1,1,1,1,0,0,0,1,4,50.0,0.09159555625150707,"pink, orange, red, yellow, utilities",889,889
+1,0,0,1,1,1,0,1,0,0,4,50.0,0.09149095793430888,"brown, orange, red, yellow, indigo",890,890
+1,0,1,0,0,0,1,0,0,0,4,50.0,0.09146898696384387,"brown, pink, green",891,891
+1,0,0,1,1,0,1,0,1,1,4,50.0,0.09129224911210913,"brown, orange, red, green, stations, utilities",892,892
+0,0,1,1,1,1,0,0,1,0,4,50.0,0.09127347360454785,"pink, orange, red, yellow, stations",893,893
+1,0,0,1,1,1,1,0,0,1,4,50.0,0.09126542393632833,"brown, orange, red, yellow, green, utilities",894,894
+1,0,1,1,1,0,0,1,0,1,4,50.0,0.09125321910316544,"brown, pink, orange, red, indigo, utilities",895,895
+1,0,0,1,1,1,0,0,0,0,4,50.0,0.09115828520687994,"brown, orange, red, yellow",896,896
+1,0,1,1,1,0,1,1,0,1,4,50.0,0.09114775995995425,"brown, pink, orange, red, green, indigo, utilities",897,897
+1,0,1,1,0,1,0,0,0,1,4,50.0,0.09114283959071219,"brown, pink, orange, yellow, utilities",898,898
+1,0,1,0,1,1,1,0,1,1,4,50.0,0.09112015384745682,"brown, pink, red, yellow, green, stations, utilities",899,899
+1,0,1,1,1,0,1,1,1,0,4,50.0,0.09107322172905813,"brown, pink, orange, red, green, indigo, stations",900,900
+1,0,1,0,0,1,1,0,1,1,4,50.0,0.09106529802520306,"brown, pink, yellow, green, stations, utilities",901,901
+1,0,1,0,1,0,1,0,1,1,4,50.0,0.09105941102419615,"brown, pink, red, green, stations, utilities",902,902
+1,0,0,1,1,0,1,0,0,1,4,50.0,0.09105045331453658,"brown, orange, red, green, utilities",903,903
+1,0,1,0,1,0,1,1,1,0,4,50.0,0.09102720478745815,"brown, pink, red, green, indigo, stations",904,904
+1,0,1,1,0,0,0,0,0,1,4,50.0,0.09102595335102007,"brown, pink, orange, utilities",905,905
+1,0,1,1,1,0,1,1,0,0,4,50.0,0.09095768098281479,"brown, pink, orange, red, green, indigo",906,906
+1,0,1,1,0,1,1,1,0,0,4,50.0,0.0909466837297688,"brown, pink, orange, yellow, green, indigo",907,907
+1,0,1,0,1,1,1,0,0,0,4,50.0,0.09091284237000526,"brown, pink, red, yellow, green",908,908
+1,0,0,1,1,0,0,0,1,1,4,50.0,0.09089770375988697,"brown, orange, red, stations, utilities",909,909
+1,0,1,1,1,1,0,1,0,0,4,50.0,0.09086056059696146,"brown, pink, orange, red, yellow, indigo",910,910
+1,0,1,1,1,1,1,1,0,0,4,50.0,0.09085918296265219,"brown, pink, orange, red, yellow, green, indigo",911,911
+1,0,1,0,0,1,0,1,1,1,4,50.0,0.09078874900150784,"brown, pink, yellow, indigo, stations, utilities",912,912
+1,0,0,1,1,1,0,0,1,1,4,50.0,0.09076582618174085,"brown, orange, red, yellow, stations, utilities",913,913
+0,0,1,1,1,1,1,0,0,1,4,50.0,0.09067954251278211,"pink, orange, red, yellow, green, utilities",914,914
+1,0,1,0,0,0,0,0,0,1,4,50.0,0.0906746464685743,"brown, pink, utilities",915,915
+1,0,1,0,0,0,1,1,1,0,4,50.0,0.09066877495610709,"brown, pink, green, indigo, stations",916,916
+1,0,1,0,1,0,0,1,1,0,4,50.0,0.09062073523215228,"brown, pink, red, indigo, stations",917,917
+1,0,0,1,1,0,1,1,0,0,4,50.0,0.0905964961672541,"brown, orange, red, green, indigo",918,918
+1,0,1,0,1,1,1,0,0,1,4,50.0,0.09057124438689786,"brown, pink, red, yellow, green, utilities",919,919
+1,0,1,1,0,0,0,1,1,1,4,50.0,0.09055320000914205,"brown, pink, orange, indigo, stations, utilities",920,920
+1,0,1,0,0,1,0,1,0,0,4,50.0,0.0905452550379994,"brown, pink, yellow, indigo",921,921
+1,0,1,0,0,0,1,1,0,1,4,50.0,0.0905343414328682,"brown, pink, green, indigo, utilities",922,922
+1,0,1,1,0,0,0,1,0,0,4,50.0,0.09051804773867941,"brown, pink, orange, indigo",923,923
+1,0,1,0,0,0,1,1,0,0,4,50.0,0.09050463317217557,"brown, pink, green, indigo",924,924
+1,0,1,0,0,1,0,1,1,0,4,50.0,0.09045475874794012,"brown, pink, yellow, indigo, stations",925,925
+1,0,1,0,0,1,1,1,0,0,4,50.0,0.090439583067284,"brown, pink, yellow, green, indigo",926,926
+1,0,0,1,1,1,0,0,1,0,4,50.0,0.09043209451851388,"brown, orange, red, yellow, stations",927,927
+1,0,1,1,0,1,0,0,1,1,4,50.0,0.09041089211915401,"brown, pink, orange, yellow, stations, utilities",928,928
+1,0,1,0,1,0,0,1,0,1,4,50.0,0.0903645407698089,"brown, pink, red, indigo, utilities",929,929
+1,0,1,0,0,1,0,0,0,1,4,50.0,0.09030671617567007,"brown, pink, yellow, utilities",930,930
+1,0,1,1,0,0,0,0,0,0,4,50.0,0.09020436257023681,"brown, pink, orange",931,931
+1,0,1,1,1,0,1,0,1,1,4,50.0,0.09018423113492116,"brown, pink, orange, red, green, stations, utilities",932,932
+1,0,1,0,1,1,0,0,0,0,4,50.0,0.09016349792662547,"brown, pink, red, yellow",933,933
+1,0,1,0,1,1,0,0,1,1,4,50.0,0.09014956686085364,"brown, pink, red, yellow, stations, utilities",934,934
+1,0,1,1,0,1,1,0,1,1,4,50.0,0.09009816496694126,"brown, pink, orange, yellow, green, stations, utilities",935,935
+1,0,1,0,1,1,0,1,1,0,4,50.0,0.09008593170834656,"brown, pink, red, yellow, indigo, stations",936,936
+1,0,0,1,1,1,0,0,0,1,4,50.0,0.09007030992716467,"brown, orange, red, yellow, utilities",937,937
+1,0,1,0,0,0,0,1,1,1,4,50.0,0.09003195138770503,"brown, pink, indigo, stations, utilities",938,938
+1,0,1,0,0,0,0,1,0,1,4,50.0,0.08998586130283806,"brown, pink, indigo, utilities",939,939
+1,0,0,1,1,0,1,0,1,0,4,50.0,0.08991333268885963,"brown, orange, red, green, stations",940,940
+1,0,1,1,1,1,1,0,0,1,4,50.0,0.08989778861219276,"brown, pink, orange, red, yellow, green, utilities",941,941
+1,0,1,1,1,0,1,0,0,1,4,50.0,0.08987769050469753,"brown, pink, orange, red, green, utilities",942,942
+0,0,1,1,1,1,0,0,0,0,4,50.0,0.08982236488437698,"pink, orange, red, yellow",943,943
+1,0,1,1,1,0,0,0,0,1,4,50.0,0.08982099265255068,"brown, pink, orange, red, utilities",944,944
+1,0,1,1,1,0,0,1,0,0,4,50.0,0.08976265871393693,"brown, pink, orange, red, indigo",945,945
+1,0,1,0,1,0,1,0,1,0,4,50.0,0.08975648581781215,"brown, pink, red, green, stations",946,946
+1,0,0,1,1,1,1,0,1,0,4,50.0,0.08973412385944093,"brown, orange, red, yellow, green, stations",947,947
+1,0,1,0,1,1,0,0,1,0,4,50.0,0.08972946123858384,"brown, pink, red, yellow, stations",948,948
+1,0,1,0,1,0,0,0,0,1,4,50.0,0.08969533704030346,"brown, pink, red, utilities",949,949
+1,0,1,1,0,0,1,1,1,0,4,50.0,0.08968894260351332,"brown, pink, orange, green, indigo, stations",950,950
+1,0,1,0,1,0,0,1,0,0,4,50.0,0.08967204720211483,"brown, pink, red, indigo",951,951
+1,0,1,1,1,1,0,0,0,1,4,50.0,0.08966816240998107,"brown, pink, orange, red, yellow, utilities",952,952
+1,0,1,1,0,0,1,1,0,0,4,50.0,0.08966246239168707,"brown, pink, orange, green, indigo",953,953
+1,0,1,1,1,1,1,0,1,0,4,50.0,0.08965185259199984,"brown, pink, orange, red, yellow, green, stations",954,954
+1,0,1,0,1,0,1,1,0,0,4,50.0,0.08962179118488023,"brown, pink, red, green, indigo",955,955
+1,0,1,1,1,0,1,0,0,0,4,50.0,0.08959301724755288,"brown, pink, orange, red, green",956,956
+0,0,1,1,0,1,1,0,0,0,4,50.0,0.08957717719653488,"pink, orange, yellow, green",957,957
+1,0,1,0,0,1,1,1,1,0,4,50.0,0.08954902645867349,"brown, pink, yellow, green, indigo, stations",958,958
+1,0,1,1,1,0,0,0,1,0,4,50.0,0.08949909305530843,"brown, pink, orange, red, stations",959,959
+1,0,0,1,1,1,1,0,0,0,4,50.0,0.08948467073388583,"brown, orange, red, yellow, green",960,960
+1,0,1,1,0,0,1,0,1,1,4,50.0,0.08947887355436494,"brown, pink, orange, green, stations, utilities",961,961
+1,0,1,1,0,0,0,1,0,1,4,50.0,0.08934092188637201,"brown, pink, orange, indigo, utilities",962,962
+1,0,1,1,0,1,0,0,0,0,4,50.0,0.08930115259933381,"brown, pink, orange, yellow",963,963
+1,0,1,1,0,1,1,0,0,0,4,50.0,0.08927118137714847,"brown, pink, orange, yellow, green",964,964
+1,0,1,0,0,1,0,0,1,1,4,50.0,0.08911345121374883,"brown, pink, yellow, stations, utilities",965,965
+1,0,1,1,1,1,0,0,1,0,4,50.0,0.0890838036146914,"brown, pink, orange, red, yellow, stations",966,966
+1,0,1,0,1,0,0,0,1,1,4,50.0,0.08908279202924911,"brown, pink, red, stations, utilities",967,967
+1,0,1,1,0,0,1,0,1,0,4,50.0,0.08904322893525793,"brown, pink, orange, green, stations",968,968
+1,0,1,1,1,1,0,0,0,0,4,50.0,0.08904084686035693,"brown, pink, orange, red, yellow",969,969
+0,0,1,1,0,1,0,0,0,1,4,50.0,0.08901327034220738,"pink, orange, yellow, utilities",970,970
+1,0,1,1,0,0,1,0,0,0,4,50.0,0.08895852023041316,"brown, pink, orange, green",971,971
+1,0,1,0,0,1,1,0,1,0,4,50.0,0.08895316946057194,"brown, pink, yellow, green, stations",972,972
+1,0,1,1,1,1,1,0,0,0,4,50.0,0.08894043367846394,"brown, pink, orange, red, yellow, green",973,973
+1,0,1,0,0,0,0,0,1,0,4,50.0,0.08893084552941702,"brown, pink, stations",974,974
+1,0,1,0,1,0,0,0,1,0,4,50.0,0.08886170176555266,"brown, pink, red, stations",975,975
+1,0,1,0,0,1,0,0,0,0,4,50.0,0.08885582132343503,"brown, pink, yellow",976,976
+1,0,1,1,0,0,0,1,1,0,4,50.0,0.08882049174538605,"brown, pink, orange, indigo, stations",977,977
+1,0,1,0,0,1,1,0,0,0,4,50.0,0.08878744673010532,"brown, pink, yellow, green",978,978
+1,0,1,1,0,1,1,0,1,0,4,50.0,0.08874585263986715,"brown, pink, orange, yellow, green, stations",979,979
+0,0,1,1,0,0,1,0,0,1,4,50.0,0.08874360297914531,"pink, orange, green, utilities",980,980
+0,0,1,1,1,0,0,0,0,0,4,50.0,0.08872497339955127,"pink, orange, red",981,981
+1,0,1,1,1,0,1,0,1,0,4,50.0,0.08863522715162231,"brown, pink, orange, red, green, stations",982,982
+1,0,1,1,1,0,0,0,0,0,4,50.0,0.08862506581426141,"brown, pink, orange, red",983,983
+1,0,1,0,0,0,1,0,1,0,4,50.0,0.08858260611712701,"brown, pink, green, stations",984,984
+1,0,1,0,1,1,1,0,1,0,4,50.0,0.08854581477809378,"brown, pink, red, yellow, green, stations",985,985
+1,0,1,1,0,1,0,0,1,0,4,50.0,0.08854306276527439,"brown, pink, orange, yellow, stations",986,986
+1,0,1,0,0,0,1,0,1,1,4,50.0,0.08848659166089583,"brown, pink, green, stations, utilities",987,987
+1,0,1,0,0,0,0,0,1,1,4,50.0,0.08847289228305026,"brown, pink, stations, utilities",988,988
+1,0,1,0,0,1,0,0,1,0,4,50.0,0.08837200714391154,"brown, pink, yellow, stations",989,989
+1,0,1,1,1,0,0,0,1,1,4,50.0,0.08823715534890791,"brown, pink, orange, red, stations, utilities",990,990
+0,0,1,1,1,0,0,0,1,0,4,50.0,0.088118114406366,"pink, orange, red, stations",991,991
+1,0,1,1,0,0,0,0,1,1,4,50.0,0.08801371334812366,"brown, pink, orange, stations, utilities",992,992
+1,0,1,1,0,0,0,0,1,0,4,50.0,0.08799523624608603,"brown, pink, orange, stations",993,993
+0,0,1,1,1,0,1,0,1,0,4,50.0,0.08773553763550154,"pink, orange, red, green, stations",994,994
+0,0,1,1,0,0,1,0,1,1,4,50.0,0.087121546049643,"pink, orange, green, stations, utilities",995,995
+0,0,1,1,0,1,0,0,1,0,4,50.0,0.08703429623778663,"pink, orange, yellow, stations",996,996
+0,0,1,1,0,1,1,0,1,0,4,50.0,0.08695799431905793,"pink, orange, yellow, green, stations",997,997
+0,0,1,1,0,1,1,0,0,1,4,50.0,0.08694194306029294,"pink, orange, yellow, green, utilities",998,998
+0,0,1,1,0,0,1,1,0,0,4,50.0,0.08687468150589787,"pink, orange, green, indigo",999,999
+0,0,1,1,1,0,0,0,0,1,4,50.0,0.08682142938110964,"pink, orange, red, utilities",1000,1000
+0,0,1,1,1,0,1,0,0,1,4,50.0,0.08624938939292714,"pink, orange, red, green, utilities",1001,1001
+0,0,1,1,1,0,0,0,1,1,4,50.0,0.08611336594098667,"pink, orange, red, stations, utilities",1002,1002
+0,0,1,1,1,0,0,1,0,0,4,50.0,0.0855369113825899,"pink, orange, red, indigo",1003,1003
+0,0,1,1,0,0,1,1,0,1,4,50.0,0.08552836674414699,"pink, orange, green, indigo, utilities",1004,1004
+0,0,1,1,1,0,1,1,0,0,4,50.0,0.085471916651191,"pink, orange, red, green, indigo",1005,1005
+0,0,1,1,1,0,0,1,0,1,4,50.0,0.08546695197457281,"pink, orange, red, indigo, utilities",1006,1006
+0,0,1,1,0,1,1,1,0,0,4,50.0,0.0854537720111404,"pink, orange, yellow, green, indigo",1007,1007
+0,0,1,1,0,1,1,0,1,1,4,50.0,0.0853780637503652,"pink, orange, yellow, green, stations, utilities",1008,1008
+0,0,1,1,0,0,1,1,1,0,4,50.0,0.0853468877464094,"pink, orange, green, indigo, stations",1009,1009
+0,0,1,1,0,1,0,1,0,1,4,50.0,0.0853112918690807,"pink, orange, yellow, indigo, utilities",1010,1010
+0,0,1,1,0,1,0,1,0,0,4,50.0,0.08528717995894897,"pink, orange, yellow, indigo",1011,1011
+0,0,1,1,0,1,0,0,1,1,4,50.0,0.08523924745228306,"pink, orange, yellow, stations, utilities",1012,1012
+0,0,1,1,1,0,1,0,1,1,4,50.0,0.08513066731641161,"pink, orange, red, green, stations, utilities",1013,1013
+0,0,1,1,0,1,1,1,1,0,4,50.0,0.08497605777273227,"pink, orange, yellow, green, indigo, stations",1014,1014
+0,0,1,1,0,1,0,1,1,0,4,50.0,0.08481198744839522,"pink, orange, yellow, indigo, stations",1015,1015
+0,0,1,1,0,1,1,1,0,1,4,50.0,0.08459150845953638,"pink, orange, yellow, green, indigo, utilities",1016,1016
+0,0,1,1,1,0,1,1,1,0,4,50.0,0.08453405267863076,"pink, orange, red, green, indigo, stations",1017,1017
+0,0,1,1,1,0,1,1,0,1,4,50.0,0.08442952443314802,"pink, orange, red, green, indigo, utilities",1018,1018
+0,0,1,1,1,0,0,1,1,1,4,50.0,0.08364494329275846,"pink, orange, red, indigo, stations, utilities",1019,1019
+0,0,1,1,1,0,1,1,1,1,4,50.0,0.08345383097331616,"pink, orange, red, green, indigo, stations, utilities",1020,1020
+0,0,1,1,0,1,1,1,1,1,4,50.0,0.08337079485717297,"pink, orange, yellow, green, indigo, stations, utilities",1021,1021
+0,0,1,1,1,0,0,1,1,0,4,50.0,0.08309920354468694,"pink, orange, red, indigo, stations",1022,1022
+0,0,1,1,0,1,0,1,1,1,4,50.0,0.08288458292018885,"pink, orange, yellow, indigo, stations, utilities",1023,1023
+0,0,1,1,0,0,1,1,1,1,4,50.0,0.08238260453658217,"pink, orange, green, indigo, stations, utilities",1024,1024

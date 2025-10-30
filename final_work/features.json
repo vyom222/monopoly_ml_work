@@ -1,0 +1,16 @@
+{
+  "pregame_features": [
+    "buy_brown",
+    "buy_light_blue",
+    "buy_pink",
+    "buy_orange",
+    "buy_red",
+    "buy_yellow",
+    "buy_green",
+    "buy_indigo",
+    "buy_stations",
+    "buy_utilities",
+    "max_development_level",
+    "unspendable_cash"
+  ]
+}

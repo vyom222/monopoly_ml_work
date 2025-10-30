@@ -14,10 +14,9 @@ from monopoly.core.constants import (
 )
 
 # Experiment parameters
-N_GAMES_PER_STRATEGY = 1  # change as you like; try small first
-N_WORKERS = None  # None -> ProcessPoolExecutor default (os.cpu_count())
+N_GAMES_PER_STRATEGY = 100  
+N_WORKERS = None  
 
-# Full boolean buy flags for all groups
 BUY_FLAGS = ['buy_brown', 'buy_light_blue', 'buy_pink', 'buy_orange',
              'buy_red', 'buy_yellow', 'buy_green', 'buy_indigo',
              'buy_stations', 'buy_utilities']
@@ -28,33 +27,25 @@ STRATEGY_GRID = list(product(
     [0, 50, 100],           # unspendable_cash
 ))
 
-# Keep a deterministic ordering of groups for CSV columns
 GROUP_ORDER = [BROWN, LIGHTBLUE, PINK, ORANGE, RED, YELLOW, GREEN, INDIGO, RAILROADS, UTILITIES]
 
 
 def normalize_group_name(g):
     return str(g).lower().replace(" ", "_").replace("'", "").replace("-", "_")
 
-
 GROUP_NAMES = [normalize_group_name(g) for g in GROUP_ORDER]
-
 
 def _make_custom_hero_class(params: dict):
     """
     Create a subclass of HeroPlayerSettings with class attributes set to params.
     This avoids depending on __init__ signature of GameSettings elsewhere.
     """
-    class_attrs = dict(params)  # copy
-    # Ensure expected default attributes exist for safety
+    class_attrs = dict(params) 
     return type("CustomHeroSettings", (HeroPlayerSettings,), class_attrs)
 
 
 def run_single_game(job):
-    """
-    job is a tuple: (strategy_dict, game_number, game_seed)
-    We create a CustomHeroSettings class whose class-level attributes match the strategy,
-    patch settings.GameSettings.players_list and settings.GameSettings.seed and run the game.
-    """
+    # Create a CustomHeroSettings class whose attributes match the strategy,
     strategy, game_number, game_seed = job
 
     # Determine which groups to ignore based on buy flags
@@ -77,14 +68,14 @@ def run_single_game(job):
         "max_development_level": strategy["max_development_level"],
         "ignore_property_groups": frozenset(ignored),
         "unspendable_cash": strategy["unspendable_cash"],
-        # fixed trading parameters (change if you want)
+        # fixed trading parameters
         "trade_max_diff_absolute": getattr(strategy, "trade_max_diff_absolute", 150) if hasattr(strategy, "trade_max_diff_absolute") else 150,
         "set_completion_trade_bonus": getattr(strategy, "set_completion_trade_bonus", 250) if hasattr(strategy, "set_completion_trade_bonus") else 250,
     }
 
     CustomHeroSettings = _make_custom_hero_class(params)
 
-    # Patch GameSettings for this process (safe inside process)
+    # Patch GameSettings
     settings.GameSettings.players_list = [
         (HERO, CustomHeroSettings),
         (PLAYER_2, StandardPlayerSettings),
@@ -96,17 +87,15 @@ def run_single_game(job):
     try:
         summary = monopoly_game((game_number, game_seed))
     except Exception as e:
-        # Return an error row so main process can log it
         return {"error": True, "error_message": str(e), "strategy": strategy, "game_seed": game_seed}
 
     # Extract Hero stats
     hero_stats = summary["players"].get(HERO, {})
 
-    # Build base result (include strategy fields)
+    # Build base result 
     result = {k: strategy.get(k, "") for k in BUY_FLAGS}
     result["max_development_level"] = strategy["max_development_level"]
     result["unspendable_cash"] = strategy["unspendable_cash"]
-    # drop ROI per request (do not include)
     result["win"] = 1 if summary.get("winner") == HERO else 0
     result["props"] = hero_stats.get("props", 0)
     result["houses"] = hero_stats.get("houses", 0)
@@ -120,7 +109,6 @@ def run_single_game(job):
         k_ever = f"ever_{gn}"
         k_partial = f"partial_{gn}"
         k_max = f"max_owned_{gn}"
-        # If hero_stats already has them (from monopoly_game summary), use that
         if k_ever in hero_stats:
             result[k_ever] = hero_stats[k_ever]
         else:
@@ -164,7 +152,6 @@ def main():
     total_jobs = len(jobs)
     print(f"Prepared {total_jobs} jobs (strategies * games). Launching {N_WORKERS or 'default'} workers...")
 
-    # Run in parallel and collect results
     results = []
     with ProcessPoolExecutor(max_workers=N_WORKERS) as executor:
         futures = {executor.submit(run_single_game, job): job for job in jobs}
@@ -174,7 +161,6 @@ def main():
             try:
                 res = fut.result()
             except Exception as e:
-                # Uncaught exception in worker
                 res = {"error": True, "error_message": str(e), "strategy": job[0], "game_seed": job[2]}
             results.append(res)
             completed += 1
@@ -183,7 +169,6 @@ def main():
             else:
                 print(f"Error in job {completed}/{total_jobs}: {res.get('error_message')}")
 
-    # Write CSV (single-threaded, deterministic order - sort by strategy fields then seed)
     # Sort: by buy flags then max_development_level then unspendable_cash then game_seed
     def sort_key(r):
         # error rows may not include keys
@@ -195,12 +180,10 @@ def main():
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames, extrasaction="ignore")
         writer.writeheader()
         for row in results_sorted:
-            # convert booleans to True/False, floats unchanged
-            # ensure all fields exist
             out = {k: row.get(k, "") for k in fieldnames}
             writer.writerow(out)
 
-    print("Done! Results saved to strategy_results.csv")
+    print("Results saved to strategy_results.csv")
 
 
 if __name__ == "__main__":

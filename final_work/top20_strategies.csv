@@ -1,0 +1,21 @@
+buy_brown,buy_light_blue,buy_pink,buy_orange,buy_red,buy_yellow,buy_green,buy_indigo,buy_stations,buy_utilities,max_development_level,unspendable_cash,predicted_win_prob,owned_sets,rank,points
+1,1,0,0,1,0,1,1,1,1,4,50.0,0.11791111461189097,"brown, light_blue, red, green, indigo, stations, utilities",1,1
+1,1,1,1,1,0,0,1,0,1,4,50.0,0.11707404085825565,"brown, light_blue, pink, orange, red, indigo, utilities",2,2
+1,1,0,1,1,1,1,1,1,1,4,50.0,0.11567401532631202,"brown, light_blue, orange, red, yellow, green, indigo, stations, utilities",3,3
+1,1,0,0,1,1,1,1,0,1,4,50.0,0.11465322201555876,"brown, light_blue, red, yellow, green, indigo, utilities",4,4
+1,1,0,1,0,0,0,1,0,0,4,50.0,0.11331213454529913,"brown, light_blue, orange, indigo",5,5
+1,1,0,1,1,1,0,0,1,1,4,50.0,0.11319555116689126,"brown, light_blue, orange, red, yellow, stations, utilities",6,6
+1,1,0,1,0,0,1,0,1,1,4,50.0,0.11277013104643134,"brown, light_blue, orange, green, stations, utilities",7,7
+1,1,1,1,1,1,1,1,1,1,4,50.0,0.11260863806460455,"brown, light_blue, pink, orange, red, yellow, green, indigo, stations, utilities",8,8
+1,1,0,1,0,0,1,1,1,1,4,50.0,0.11247874707451369,"brown, light_blue, orange, green, indigo, stations, utilities",9,9
+1,0,0,1,0,1,1,1,1,1,4,50.0,0.11226706130282975,"brown, orange, yellow, green, indigo, stations, utilities",10,10
+1,1,1,1,1,0,1,1,0,1,4,50.0,0.11205288924429195,"brown, light_blue, pink, orange, red, green, indigo, utilities",11,11
+1,1,0,1,0,0,1,1,0,1,4,50.0,0.11192061900107786,"brown, light_blue, orange, green, indigo, utilities",12,12
+1,1,0,0,1,1,0,1,1,1,4,50.0,0.11185663983787023,"brown, light_blue, red, yellow, indigo, stations, utilities",13,13
+1,1,0,1,0,1,0,1,1,1,4,50.0,0.11180397168338962,"brown, light_blue, orange, yellow, indigo, stations, utilities",14,14
+1,1,0,1,0,1,1,1,0,1,4,50.0,0.11166215847345418,"brown, light_blue, orange, yellow, green, indigo, utilities",15,15
+1,1,1,0,1,1,0,1,1,1,4,50.0,0.11147070282910494,"brown, light_blue, pink, red, yellow, indigo, stations, utilities",16,16
+1,1,0,1,0,0,0,1,1,1,4,50.0,0.11145826374687465,"brown, light_blue, orange, indigo, stations, utilities",17,17
+1,1,0,1,0,0,1,1,1,0,4,50.0,0.11144972388274765,"brown, light_blue, orange, green, indigo, stations",18,18
+1,1,0,1,1,1,0,1,1,1,4,50.0,0.11107546147249545,"brown, light_blue, orange, red, yellow, indigo, stations, utilities",19,19
+1,1,1,1,1,1,0,1,1,1,4,50.0,0.11103133121764668,"brown, light_blue, pink, orange, red, yellow, indigo, stations, utilities",20,20
